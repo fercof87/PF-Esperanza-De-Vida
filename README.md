@@ -39,6 +39,12 @@
         <br>GitHub
       </a>
     </td>
+    <td align="center">
+      <a href="https://bit.ly/3tRDgd5" style="margin: 0 5px; display: inline-block; padding: 5px; border-radius: 5px;">
+        <img src="src/gantt-icono.png" alt="GitHub" width="75" height="75">
+        <br>Gantt
+      </a>
+    </td>
   </tr>
 </table>
 <hr>
@@ -159,6 +165,12 @@ Estos logros resaltan nuestro compromiso con la excelencia y nuestra determinaci
       <a href="https://github.com/fercof87/PF-Esperanza-De-Vida" style="margin: 0 5px; display: inline-block; padding: 5px; border-radius: 5px;">
         <img src="src/github.png" alt="GitHub" width="75" height="75">
         <br>GitHub
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://bit.ly/3tRDgd5" style="margin: 0 5px; display: inline-block; padding: 5px; border-radius: 5px;">
+        <img src="src/gantt-icono.png" alt="GitHub" width="75" height="75">
+        <br>Gantt
       </a>
     </td>
   </tr>
