@@ -27,16 +27,16 @@ def transform_indicator_to_row(request):
     df = pd.read_csv(StringIO(data))
 
     # Cambiar el nombre de las columnas 'economy' y 'time'
-    df = df.rename(columns={'economy': 'Country', 'time': 'Year'})
+    df = df.rename(columns={'economy': 'Pais', 'time': 'Año'})
 
     # Quedarse con los últimos 4 dígitos en la columna 'Year'
-    df['Year'] = df['Year'].str[-4:]
+    df['Año'] = df['Año'].str[-4:]
 
     # Reorganizar el DataFrame pasando al indicador a nivel de registro en lugar de columna
-    df = pd.melt(df, id_vars=['Country', 'Year'], var_name='Indicator', value_name='Value')
+    df = pd.melt(df, id_vars=['Pais', 'Año'], var_name='Indicador', value_name='Valor')
 
     # Guardar el DataFrame transformado en un archivo CSV en una ubicación temporal
-    df.to_csv('/tmp/banco_mundial_data_indicator_to_row.csv', index=False)
+    df.to_csv('/tmp/banco_mundial_data_indicator_to_row.csv', index=False, encoding='utf-8')
 
     # Nombre del archivo de salida en el bucket
     blob_name_output = 'banco_mundial_data_indicator_to_row.csv'
