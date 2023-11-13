@@ -1,0 +1,32 @@
+cod_indicator,name_indicator
+SP.DYN.LE00.IN,"Life expectancy at birth, total (years)"
+SP.DYN.LE00.FE.IN,"Life expectancy at birth, female (years)"
+SP.DYN.LE00.MA.IN,"Life expectancy at birth, male (years)"
+SP.POP.GROW,Population growth (annual %)
+SP.RUR.TOTL.ZG,Rural population growth (annual %)
+SP.URB.GROW,Urban population growth (annual %)
+SP.POP.TOTL,"Population, total"
+SP.URB.TOTL,Urban population
+SP.RUR.TOTL,Rural population
+SP.POP.TOTL.MA.IN,"Population, male"
+SP.POP.TOTL.FE.IN,"Population, female"
+SP.POP.0014.TO,"Population ages 0-14, total"
+SP.POP.0014.MA.IN,"Population ages 0-14, male"
+SP.POP.0014.FE.IN,"Population ages 0-14, female"
+SP.POP.1564.TO,"Population ages 15-64, total"
+SP.POP.1564.MA.IN,"Population ages 15-64, male"
+SP.POP.1564.FE.IN,"Population ages 15-64, female"
+SP.POP.65UP.TO,"Population ages 65 and above, total"
+SP.POP.65UP.MA.IN,"Population ages 65 and above, male"
+SP.POP.65UP.FE.IN,"Population ages 65 and above, female"
+NY.GDP.PCAP.KD.ZG,GDP per capita growth (annual %)
+NY.GDP.PCAP.CD,GDP per capita (current US$)
+NY.GDP.DEFL.KD.ZG,"Inflation, GDP deflator (annual %)"
+FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)"
+SE.SEC.CUAT.LO.ZS,"Educational attainment, at least completed lower secondary, population 25+, total (%) (cumulative)"
+SE.SEC.CUAT.UP.ZS,"Educational attainment, at least completed upper secondary, population 25+, total (%) (cumulative)"
+SE.SEC.CUAT.PO.ZS,"Educational attainment, at least completed post-secondary, population 25+, total (%) (cumulative)"
+SE.SEC.CMPT.LO.ZS,"Lower secondary completion rate, total (% of relevant age group)"
+SH.XPD.GHED.PC.CD,Domestic general government health expenditure per capita (current US$)
+SH.XPD.OOPC.PC.CD,Out-of-pocket expenditure per capita (current US$)
+SH.XPD.PVTD.PC.CD,Domestic private health expenditure per capita (current US$)
