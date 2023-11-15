@@ -47,9 +47,9 @@ Ecuador,Gasto interno privado en salud per cápita (US$ a precios actuales),1987
 Emiratos Árabes Unidos,Gasto nacional en salud del gobierno general per cápita (US$ a precios actuales),1987,856.5632190476191
 Emiratos Árabes Unidos,Gasto de bolsillo per cápita (US$ actuales),1987,249.96917142857143
 Emiratos Árabes Unidos,Gasto interno privado en salud per cápita (US$ a precios actuales),1987,477.64606190476195
-"Egipto, República Árabe de",Gasto nacional en salud del gobierno general per cápita (US$ a precios actuales),1987,33.51206666666667
-"Egipto, República Árabe de",Gasto de bolsillo per cápita (US$ actuales),1987,63.974171428571424
-"Egipto, República Árabe de",Gasto interno privado en salud per cápita (US$ a precios actuales),1987,71.39645714285714
+Egipto,Gasto nacional en salud del gobierno general per cápita (US$ a precios actuales),1987,33.51206666666667
+Egipto,Gasto de bolsillo per cápita (US$ actuales),1987,63.974171428571424
+Egipto,Gasto interno privado en salud per cápita (US$ a precios actuales),1987,71.39645714285714
 Cuba,Gasto nacional en salud del gobierno general per cápita (US$ a precios actuales),1987,559.2024
 Cuba,Gasto de bolsillo per cápita (US$ actuales),1987,70.23637142857143
 Cuba,Gasto interno privado en salud per cápita (US$ a precios actuales),1987,70.23637142857143
@@ -68,9 +68,9 @@ Fiji,Gasto interno privado en salud per cápita (US$ a precios actuales),1987,39
 Finlandia,Gasto nacional en salud del gobierno general per cápita (US$ a precios actuales),1987,3008.041695238095
 Finlandia,Gasto de bolsillo per cápita (US$ actuales),1987,710.4102714285715
 Finlandia,Gasto interno privado en salud per cápita (US$ a precios actuales),1987,810.8462380952382
-Federación de Rusia,Gasto nacional en salud del gobierno general per cápita (US$ a precios actuales),1987,296.0573904761905
-Federación de Rusia,Gasto de bolsillo per cápita (US$ actuales),1987,165.9586095238095
-Federación de Rusia,Gasto interno privado en salud per cápita (US$ a precios actuales),1987,183.81980476190478
+Rusia,Gasto nacional en salud del gobierno general per cápita (US$ a precios actuales),1987,296.0573904761905
+Rusia,Gasto de bolsillo per cápita (US$ actuales),1987,165.9586095238095
+Rusia,Gasto interno privado en salud per cápita (US$ a precios actuales),1987,183.81980476190478
 Grecia,Gasto nacional en salud del gobierno general per cápita (US$ a precios actuales),1987,1104.0007095238095
 Grecia,Gasto de bolsillo per cápita (US$ actuales),1987,617.5511
 Grecia,Gasto interno privado en salud per cápita (US$ a precios actuales),1987,711.5203285714285
@@ -179,9 +179,9 @@ Ecuador,Gasto interno privado en salud per cápita (US$ a precios actuales),1988
 Emiratos Árabes Unidos,Gasto nacional en salud del gobierno general per cápita (US$ a precios actuales),1988,856.5632190476191
 Emiratos Árabes Unidos,Gasto de bolsillo per cápita (US$ actuales),1988,249.96917142857143
 Emiratos Árabes Unidos,Gasto interno privado en salud per cápita (US$ a precios actuales),1988,477.64606190476195
-"Egipto, República Árabe de",Gasto nacional en salud del gobierno general per cápita (US$ a precios actuales),1988,33.51206666666667
-"Egipto, República Árabe de",Gasto de bolsillo per cápita (US$ actuales),1988,63.974171428571424
-"Egipto, República Árabe de",Gasto interno privado en salud per cápita (US$ a precios actuales),1988,71.39645714285714
+Egipto,Gasto nacional en salud del gobierno general per cápita (US$ a precios actuales),1988,33.51206666666667
+Egipto,Gasto de bolsillo per cápita (US$ actuales),1988,63.974171428571424
+Egipto,Gasto interno privado en salud per cápita (US$ a precios actuales),1988,71.39645714285714
 Cuba,Gasto nacional en salud del gobierno general per cápita (US$ a precios actuales),1988,559.2024
 Cuba,Gasto de bolsillo per cápita (US$ actuales),1988,70.23637142857143
 Cuba,Gasto interno privado en salud per cápita (US$ a precios actuales),1988,70.23637142857143
@@ -200,9 +200,9 @@ Fiji,Gasto interno privado en salud per cápita (US$ a precios actuales),1988,39
 Finlandia,Gasto nacional en salud del gobierno general per cápita (US$ a precios actuales),1988,3008.041695238095
 Finlandia,Gasto de bolsillo per cápita (US$ actuales),1988,710.4102714285715
 Finlandia,Gasto interno privado en salud per cápita (US$ a precios actuales),1988,810.8462380952382
-Federación de Rusia,Gasto nacional en salud del gobierno general per cápita (US$ a precios actuales),1988,296.0573904761905
-Federación de Rusia,Gasto de bolsillo per cápita (US$ actuales),1988,165.9586095238095
-Federación de Rusia,Gasto interno privado en salud per cápita (US$ a precios actuales),1988,183.81980476190478
+Rusia,Gasto nacional en salud del gobierno general per cápita (US$ a precios actuales),1988,296.0573904761905
+Rusia,Gasto de bolsillo per cápita (US$ actuales),1988,165.9586095238095
+Rusia,Gasto interno privado en salud per cápita (US$ a precios actuales),1988,183.81980476190478
 Grecia,Gasto nacional en salud del gobierno general per cápita (US$ a precios actuales),1988,1104.0007095238095
 Grecia,Gasto de bolsillo per cápita (US$ actuales),1988,617.5511
 Grecia,Gasto interno privado en salud per cápita (US$ a precios actuales),1988,711.5203285714285
@@ -311,9 +311,9 @@ Ecuador,Gasto interno privado en salud per cápita (US$ a precios actuales),1989
 Emiratos Árabes Unidos,Gasto nacional en salud del gobierno general per cápita (US$ a precios actuales),1989,856.5632190476191
 Emiratos Árabes Unidos,Gasto de bolsillo per cápita (US$ actuales),1989,249.96917142857143
 Emiratos Árabes Unidos,Gasto interno privado en salud per cápita (US$ a precios actuales),1989,477.64606190476195
-"Egipto, República Árabe de",Gasto nacional en salud del gobierno general per cápita (US$ a precios actuales),1989,33.51206666666667
-"Egipto, República Árabe de",Gasto de bolsillo per cápita (US$ actuales),1989,63.974171428571424
-"Egipto, República Árabe de",Gasto interno privado en salud per cápita (US$ a precios actuales),1989,71.39645714285714
+Egipto,Gasto nacional en salud del gobierno general per cápita (US$ a precios actuales),1989,33.51206666666667
+Egipto,Gasto de bolsillo per cápita (US$ actuales),1989,63.974171428571424
+Egipto,Gasto interno privado en salud per cápita (US$ a precios actuales),1989,71.39645714285714
 Cuba,Gasto nacional en salud del gobierno general per cápita (US$ a precios actuales),1989,559.2024
 Cuba,Gasto de bolsillo per cápita (US$ actuales),1989,70.23637142857143
 Cuba,Gasto interno privado en salud per cápita (US$ a precios actuales),1989,70.23637142857143
@@ -332,9 +332,9 @@ Fiji,Gasto interno privado en salud per cápita (US$ a precios actuales),1989,39
 Finlandia,Gasto nacional en salud del gobierno general per cápita (US$ a precios actuales),1989,3008.041695238095
 Finlandia,Gasto de bolsillo per cápita (US$ actuales),1989,710.4102714285715
 Finlandia,Gasto interno privado en salud per cápita (US$ a precios actuales),1989,810.8462380952382
-Federación de Rusia,Gasto nacional en salud del gobierno general per cápita (US$ a precios actuales),1989,296.0573904761905
-Federación de Rusia,Gasto de bolsillo per cápita (US$ actuales),1989,165.9586095238095
-Federación de Rusia,Gasto interno privado en salud per cápita (US$ a precios actuales),1989,183.81980476190478
+Rusia,Gasto nacional en salud del gobierno general per cápita (US$ a precios actuales),1989,296.0573904761905
+Rusia,Gasto de bolsillo per cápita (US$ actuales),1989,165.9586095238095
+Rusia,Gasto interno privado en salud per cápita (US$ a precios actuales),1989,183.81980476190478
 Grecia,Gasto nacional en salud del gobierno general per cápita (US$ a precios actuales),1989,1104.0007095238095
 Grecia,Gasto de bolsillo per cápita (US$ actuales),1989,617.5511
 Grecia,Gasto interno privado en salud per cápita (US$ a precios actuales),1989,711.5203285714285
@@ -443,9 +443,9 @@ Ecuador,Gasto interno privado en salud per cápita (US$ a precios actuales),1990
 Emiratos Árabes Unidos,Gasto nacional en salud del gobierno general per cápita (US$ a precios actuales),1990,856.5632190476191
 Emiratos Árabes Unidos,Gasto de bolsillo per cápita (US$ actuales),1990,249.96917142857143
 Emiratos Árabes Unidos,Gasto interno privado en salud per cápita (US$ a precios actuales),1990,477.64606190476195
-"Egipto, República Árabe de",Gasto nacional en salud del gobierno general per cápita (US$ a precios actuales),1990,33.51206666666667
-"Egipto, República Árabe de",Gasto de bolsillo per cápita (US$ actuales),1990,63.974171428571424
-"Egipto, República Árabe de",Gasto interno privado en salud per cápita (US$ a precios actuales),1990,71.39645714285714
+Egipto,Gasto nacional en salud del gobierno general per cápita (US$ a precios actuales),1990,33.51206666666667
+Egipto,Gasto de bolsillo per cápita (US$ actuales),1990,63.974171428571424
+Egipto,Gasto interno privado en salud per cápita (US$ a precios actuales),1990,71.39645714285714
 Cuba,Gasto nacional en salud del gobierno general per cápita (US$ a precios actuales),1990,559.2024
 Cuba,Gasto de bolsillo per cápita (US$ actuales),1990,70.23637142857143
 Cuba,Gasto interno privado en salud per cápita (US$ a precios actuales),1990,70.23637142857143
@@ -464,9 +464,9 @@ Fiji,Gasto interno privado en salud per cápita (US$ a precios actuales),1990,39
 Finlandia,Gasto nacional en salud del gobierno general per cápita (US$ a precios actuales),1990,3008.041695238095
 Finlandia,Gasto de bolsillo per cápita (US$ actuales),1990,710.4102714285715
 Finlandia,Gasto interno privado en salud per cápita (US$ a precios actuales),1990,810.8462380952382
-Federación de Rusia,Gasto nacional en salud del gobierno general per cápita (US$ a precios actuales),1990,296.0573904761905
-Federación de Rusia,Gasto de bolsillo per cápita (US$ actuales),1990,165.9586095238095
-Federación de Rusia,Gasto interno privado en salud per cápita (US$ a precios actuales),1990,183.81980476190478
+Rusia,Gasto nacional en salud del gobierno general per cápita (US$ a precios actuales),1990,296.0573904761905
+Rusia,Gasto de bolsillo per cápita (US$ actuales),1990,165.9586095238095
+Rusia,Gasto interno privado en salud per cápita (US$ a precios actuales),1990,183.81980476190478
 Grecia,Gasto nacional en salud del gobierno general per cápita (US$ a precios actuales),1990,1104.0007095238095
 Grecia,Gasto de bolsillo per cápita (US$ actuales),1990,617.5511
 Grecia,Gasto interno privado en salud per cápita (US$ a precios actuales),1990,711.5203285714285
@@ -575,9 +575,9 @@ Ecuador,Gasto interno privado en salud per cápita (US$ a precios actuales),1991
 Emiratos Árabes Unidos,Gasto nacional en salud del gobierno general per cápita (US$ a precios actuales),1991,856.5632190476191
 Emiratos Árabes Unidos,Gasto de bolsillo per cápita (US$ actuales),1991,249.96917142857143
 Emiratos Árabes Unidos,Gasto interno privado en salud per cápita (US$ a precios actuales),1991,477.64606190476195
-"Egipto, República Árabe de",Gasto nacional en salud del gobierno general per cápita (US$ a precios actuales),1991,33.51206666666667
-"Egipto, República Árabe de",Gasto de bolsillo per cápita (US$ actuales),1991,63.974171428571424
-"Egipto, República Árabe de",Gasto interno privado en salud per cápita (US$ a precios actuales),1991,71.39645714285714
+Egipto,Gasto nacional en salud del gobierno general per cápita (US$ a precios actuales),1991,33.51206666666667
+Egipto,Gasto de bolsillo per cápita (US$ actuales),1991,63.974171428571424
+Egipto,Gasto interno privado en salud per cápita (US$ a precios actuales),1991,71.39645714285714
 Cuba,Gasto nacional en salud del gobierno general per cápita (US$ a precios actuales),1991,559.2024
 Cuba,Gasto de bolsillo per cápita (US$ actuales),1991,70.23637142857143
 Cuba,Gasto interno privado en salud per cápita (US$ a precios actuales),1991,70.23637142857143
@@ -596,9 +596,9 @@ Fiji,Gasto interno privado en salud per cápita (US$ a precios actuales),1991,39
 Finlandia,Gasto nacional en salud del gobierno general per cápita (US$ a precios actuales),1991,3008.041695238095
 Finlandia,Gasto de bolsillo per cápita (US$ actuales),1991,710.4102714285715
 Finlandia,Gasto interno privado en salud per cápita (US$ a precios actuales),1991,810.8462380952382
-Federación de Rusia,Gasto nacional en salud del gobierno general per cápita (US$ a precios actuales),1991,296.0573904761905
-Federación de Rusia,Gasto de bolsillo per cápita (US$ actuales),1991,165.9586095238095
-Federación de Rusia,Gasto interno privado en salud per cápita (US$ a precios actuales),1991,183.81980476190478
+Rusia,Gasto nacional en salud del gobierno general per cápita (US$ a precios actuales),1991,296.0573904761905
+Rusia,Gasto de bolsillo per cápita (US$ actuales),1991,165.9586095238095
+Rusia,Gasto interno privado en salud per cápita (US$ a precios actuales),1991,183.81980476190478
 Grecia,Gasto nacional en salud del gobierno general per cápita (US$ a precios actuales),1991,1104.0007095238095
 Grecia,Gasto de bolsillo per cápita (US$ actuales),1991,617.5511
 Grecia,Gasto interno privado en salud per cápita (US$ a precios actuales),1991,711.5203285714285
@@ -707,9 +707,9 @@ Ecuador,Gasto interno privado en salud per cápita (US$ a precios actuales),1992
 Emiratos Árabes Unidos,Gasto nacional en salud del gobierno general per cápita (US$ a precios actuales),1992,856.5632190476191
 Emiratos Árabes Unidos,Gasto de bolsillo per cápita (US$ actuales),1992,249.96917142857143
 Emiratos Árabes Unidos,Gasto interno privado en salud per cápita (US$ a precios actuales),1992,477.64606190476195
-"Egipto, República Árabe de",Gasto nacional en salud del gobierno general per cápita (US$ a precios actuales),1992,33.51206666666667
-"Egipto, República Árabe de",Gasto de bolsillo per cápita (US$ actuales),1992,63.974171428571424
-"Egipto, República Árabe de",Gasto interno privado en salud per cápita (US$ a precios actuales),1992,71.39645714285714
+Egipto,Gasto nacional en salud del gobierno general per cápita (US$ a precios actuales),1992,33.51206666666667
+Egipto,Gasto de bolsillo per cápita (US$ actuales),1992,63.974171428571424
+Egipto,Gasto interno privado en salud per cápita (US$ a precios actuales),1992,71.39645714285714
 Cuba,Gasto nacional en salud del gobierno general per cápita (US$ a precios actuales),1992,559.2024
 Cuba,Gasto de bolsillo per cápita (US$ actuales),1992,70.23637142857143
 Cuba,Gasto interno privado en salud per cápita (US$ a precios actuales),1992,70.23637142857143
@@ -728,9 +728,9 @@ Fiji,Gasto interno privado en salud per cápita (US$ a precios actuales),1992,39
 Finlandia,Gasto nacional en salud del gobierno general per cápita (US$ a precios actuales),1992,3008.041695238095
 Finlandia,Gasto de bolsillo per cápita (US$ actuales),1992,710.4102714285715
 Finlandia,Gasto interno privado en salud per cápita (US$ a precios actuales),1992,810.8462380952382
-Federación de Rusia,Gasto nacional en salud del gobierno general per cápita (US$ a precios actuales),1992,296.0573904761905
-Federación de Rusia,Gasto de bolsillo per cápita (US$ actuales),1992,165.9586095238095
-Federación de Rusia,Gasto interno privado en salud per cápita (US$ a precios actuales),1992,183.81980476190478
+Rusia,Gasto nacional en salud del gobierno general per cápita (US$ a precios actuales),1992,296.0573904761905
+Rusia,Gasto de bolsillo per cápita (US$ actuales),1992,165.9586095238095
+Rusia,Gasto interno privado en salud per cápita (US$ a precios actuales),1992,183.81980476190478
 Grecia,Gasto nacional en salud del gobierno general per cápita (US$ a precios actuales),1992,1104.0007095238095
 Grecia,Gasto de bolsillo per cápita (US$ actuales),1992,617.5511
 Grecia,Gasto interno privado en salud per cápita (US$ a precios actuales),1992,711.5203285714285
@@ -839,9 +839,9 @@ Ecuador,Gasto interno privado en salud per cápita (US$ a precios actuales),1993
 Emiratos Árabes Unidos,Gasto nacional en salud del gobierno general per cápita (US$ a precios actuales),1993,856.5632190476191
 Emiratos Árabes Unidos,Gasto de bolsillo per cápita (US$ actuales),1993,249.96917142857143
 Emiratos Árabes Unidos,Gasto interno privado en salud per cápita (US$ a precios actuales),1993,477.64606190476195
-"Egipto, República Árabe de",Gasto nacional en salud del gobierno general per cápita (US$ a precios actuales),1993,33.51206666666667
-"Egipto, República Árabe de",Gasto de bolsillo per cápita (US$ actuales),1993,63.974171428571424
-"Egipto, República Árabe de",Gasto interno privado en salud per cápita (US$ a precios actuales),1993,71.39645714285714
+Egipto,Gasto nacional en salud del gobierno general per cápita (US$ a precios actuales),1993,33.51206666666667
+Egipto,Gasto de bolsillo per cápita (US$ actuales),1993,63.974171428571424
+Egipto,Gasto interno privado en salud per cápita (US$ a precios actuales),1993,71.39645714285714
 Cuba,Gasto nacional en salud del gobierno general per cápita (US$ a precios actuales),1993,559.2024
 Cuba,Gasto de bolsillo per cápita (US$ actuales),1993,70.23637142857143
 Cuba,Gasto interno privado en salud per cápita (US$ a precios actuales),1993,70.23637142857143
@@ -860,9 +860,9 @@ Fiji,Gasto interno privado en salud per cápita (US$ a precios actuales),1993,39
 Finlandia,Gasto nacional en salud del gobierno general per cápita (US$ a precios actuales),1993,3008.041695238095
 Finlandia,Gasto de bolsillo per cápita (US$ actuales),1993,710.4102714285715
 Finlandia,Gasto interno privado en salud per cápita (US$ a precios actuales),1993,810.8462380952382
-Federación de Rusia,Gasto nacional en salud del gobierno general per cápita (US$ a precios actuales),1993,296.0573904761905
-Federación de Rusia,Gasto de bolsillo per cápita (US$ actuales),1993,165.9586095238095
-Federación de Rusia,Gasto interno privado en salud per cápita (US$ a precios actuales),1993,183.81980476190478
+Rusia,Gasto nacional en salud del gobierno general per cápita (US$ a precios actuales),1993,296.0573904761905
+Rusia,Gasto de bolsillo per cápita (US$ actuales),1993,165.9586095238095
+Rusia,Gasto interno privado en salud per cápita (US$ a precios actuales),1993,183.81980476190478
 Grecia,Gasto nacional en salud del gobierno general per cápita (US$ a precios actuales),1993,1104.0007095238095
 Grecia,Gasto de bolsillo per cápita (US$ actuales),1993,617.5511
 Grecia,Gasto interno privado en salud per cápita (US$ a precios actuales),1993,711.5203285714285
@@ -971,9 +971,9 @@ Ecuador,Gasto interno privado en salud per cápita (US$ a precios actuales),1994
 Emiratos Árabes Unidos,Gasto nacional en salud del gobierno general per cápita (US$ a precios actuales),1994,856.5632190476191
 Emiratos Árabes Unidos,Gasto de bolsillo per cápita (US$ actuales),1994,249.96917142857143
 Emiratos Árabes Unidos,Gasto interno privado en salud per cápita (US$ a precios actuales),1994,477.64606190476195
-"Egipto, República Árabe de",Gasto nacional en salud del gobierno general per cápita (US$ a precios actuales),1994,33.51206666666667
-"Egipto, República Árabe de",Gasto de bolsillo per cápita (US$ actuales),1994,63.974171428571424
-"Egipto, República Árabe de",Gasto interno privado en salud per cápita (US$ a precios actuales),1994,71.39645714285714
+Egipto,Gasto nacional en salud del gobierno general per cápita (US$ a precios actuales),1994,33.51206666666667
+Egipto,Gasto de bolsillo per cápita (US$ actuales),1994,63.974171428571424
+Egipto,Gasto interno privado en salud per cápita (US$ a precios actuales),1994,71.39645714285714
 Cuba,Gasto nacional en salud del gobierno general per cápita (US$ a precios actuales),1994,559.2024
 Cuba,Gasto de bolsillo per cápita (US$ actuales),1994,70.23637142857143
 Cuba,Gasto interno privado en salud per cápita (US$ a precios actuales),1994,70.23637142857143
@@ -992,9 +992,9 @@ Fiji,Gasto interno privado en salud per cápita (US$ a precios actuales),1994,39
 Finlandia,Gasto nacional en salud del gobierno general per cápita (US$ a precios actuales),1994,3008.041695238095
 Finlandia,Gasto de bolsillo per cápita (US$ actuales),1994,710.4102714285715
 Finlandia,Gasto interno privado en salud per cápita (US$ a precios actuales),1994,810.8462380952382
-Federación de Rusia,Gasto nacional en salud del gobierno general per cápita (US$ a precios actuales),1994,296.0573904761905
-Federación de Rusia,Gasto de bolsillo per cápita (US$ actuales),1994,165.9586095238095
-Federación de Rusia,Gasto interno privado en salud per cápita (US$ a precios actuales),1994,183.81980476190478
+Rusia,Gasto nacional en salud del gobierno general per cápita (US$ a precios actuales),1994,296.0573904761905
+Rusia,Gasto de bolsillo per cápita (US$ actuales),1994,165.9586095238095
+Rusia,Gasto interno privado en salud per cápita (US$ a precios actuales),1994,183.81980476190478
 Grecia,Gasto nacional en salud del gobierno general per cápita (US$ a precios actuales),1994,1104.0007095238095
 Grecia,Gasto de bolsillo per cápita (US$ actuales),1994,617.5511
 Grecia,Gasto interno privado en salud per cápita (US$ a precios actuales),1994,711.5203285714285
@@ -1103,9 +1103,9 @@ Ecuador,Gasto interno privado en salud per cápita (US$ a precios actuales),1995
 Emiratos Árabes Unidos,Gasto nacional en salud del gobierno general per cápita (US$ a precios actuales),1995,856.5632190476191
 Emiratos Árabes Unidos,Gasto de bolsillo per cápita (US$ actuales),1995,249.96917142857143
 Emiratos Árabes Unidos,Gasto interno privado en salud per cápita (US$ a precios actuales),1995,477.64606190476195
-"Egipto, República Árabe de",Gasto nacional en salud del gobierno general per cápita (US$ a precios actuales),1995,33.51206666666667
-"Egipto, República Árabe de",Gasto de bolsillo per cápita (US$ actuales),1995,63.974171428571424
-"Egipto, República Árabe de",Gasto interno privado en salud per cápita (US$ a precios actuales),1995,71.39645714285714
+Egipto,Gasto nacional en salud del gobierno general per cápita (US$ a precios actuales),1995,33.51206666666667
+Egipto,Gasto de bolsillo per cápita (US$ actuales),1995,63.974171428571424
+Egipto,Gasto interno privado en salud per cápita (US$ a precios actuales),1995,71.39645714285714
 Cuba,Gasto nacional en salud del gobierno general per cápita (US$ a precios actuales),1995,559.2024
 Cuba,Gasto de bolsillo per cápita (US$ actuales),1995,70.23637142857143
 Cuba,Gasto interno privado en salud per cápita (US$ a precios actuales),1995,70.23637142857143
@@ -1124,9 +1124,9 @@ Fiji,Gasto interno privado en salud per cápita (US$ a precios actuales),1995,39
 Finlandia,Gasto nacional en salud del gobierno general per cápita (US$ a precios actuales),1995,3008.041695238095
 Finlandia,Gasto de bolsillo per cápita (US$ actuales),1995,710.4102714285715
 Finlandia,Gasto interno privado en salud per cápita (US$ a precios actuales),1995,810.8462380952382
-Federación de Rusia,Gasto nacional en salud del gobierno general per cápita (US$ a precios actuales),1995,296.0573904761905
-Federación de Rusia,Gasto de bolsillo per cápita (US$ actuales),1995,165.9586095238095
-Federación de Rusia,Gasto interno privado en salud per cápita (US$ a precios actuales),1995,183.81980476190478
+Rusia,Gasto nacional en salud del gobierno general per cápita (US$ a precios actuales),1995,296.0573904761905
+Rusia,Gasto de bolsillo per cápita (US$ actuales),1995,165.9586095238095
+Rusia,Gasto interno privado en salud per cápita (US$ a precios actuales),1995,183.81980476190478
 Grecia,Gasto nacional en salud del gobierno general per cápita (US$ a precios actuales),1995,1104.0007095238095
 Grecia,Gasto de bolsillo per cápita (US$ actuales),1995,617.5511
 Grecia,Gasto interno privado en salud per cápita (US$ a precios actuales),1995,711.5203285714285
@@ -1235,9 +1235,9 @@ Ecuador,Gasto interno privado en salud per cápita (US$ a precios actuales),1996
 Emiratos Árabes Unidos,Gasto nacional en salud del gobierno general per cápita (US$ a precios actuales),1996,856.5632190476191
 Emiratos Árabes Unidos,Gasto de bolsillo per cápita (US$ actuales),1996,249.96917142857143
 Emiratos Árabes Unidos,Gasto interno privado en salud per cápita (US$ a precios actuales),1996,477.64606190476195
-"Egipto, República Árabe de",Gasto nacional en salud del gobierno general per cápita (US$ a precios actuales),1996,33.51206666666667
-"Egipto, República Árabe de",Gasto de bolsillo per cápita (US$ actuales),1996,63.974171428571424
-"Egipto, República Árabe de",Gasto interno privado en salud per cápita (US$ a precios actuales),1996,71.39645714285714
+Egipto,Gasto nacional en salud del gobierno general per cápita (US$ a precios actuales),1996,33.51206666666667
+Egipto,Gasto de bolsillo per cápita (US$ actuales),1996,63.974171428571424
+Egipto,Gasto interno privado en salud per cápita (US$ a precios actuales),1996,71.39645714285714
 Cuba,Gasto nacional en salud del gobierno general per cápita (US$ a precios actuales),1996,559.2024
 Cuba,Gasto de bolsillo per cápita (US$ actuales),1996,70.23637142857143
 Cuba,Gasto interno privado en salud per cápita (US$ a precios actuales),1996,70.23637142857143
@@ -1256,9 +1256,9 @@ Fiji,Gasto interno privado en salud per cápita (US$ a precios actuales),1996,39
 Finlandia,Gasto nacional en salud del gobierno general per cápita (US$ a precios actuales),1996,3008.041695238095
 Finlandia,Gasto de bolsillo per cápita (US$ actuales),1996,710.4102714285715
 Finlandia,Gasto interno privado en salud per cápita (US$ a precios actuales),1996,810.8462380952382
-Federación de Rusia,Gasto nacional en salud del gobierno general per cápita (US$ a precios actuales),1996,296.0573904761905
-Federación de Rusia,Gasto de bolsillo per cápita (US$ actuales),1996,165.9586095238095
-Federación de Rusia,Gasto interno privado en salud per cápita (US$ a precios actuales),1996,183.81980476190478
+Rusia,Gasto nacional en salud del gobierno general per cápita (US$ a precios actuales),1996,296.0573904761905
+Rusia,Gasto de bolsillo per cápita (US$ actuales),1996,165.9586095238095
+Rusia,Gasto interno privado en salud per cápita (US$ a precios actuales),1996,183.81980476190478
 Grecia,Gasto nacional en salud del gobierno general per cápita (US$ a precios actuales),1996,1104.0007095238095
 Grecia,Gasto de bolsillo per cápita (US$ actuales),1996,617.5511
 Grecia,Gasto interno privado en salud per cápita (US$ a precios actuales),1996,711.5203285714285
@@ -1367,9 +1367,9 @@ Ecuador,Gasto interno privado en salud per cápita (US$ a precios actuales),1997
 Emiratos Árabes Unidos,Gasto nacional en salud del gobierno general per cápita (US$ a precios actuales),1997,856.5632190476191
 Emiratos Árabes Unidos,Gasto de bolsillo per cápita (US$ actuales),1997,249.96917142857143
 Emiratos Árabes Unidos,Gasto interno privado en salud per cápita (US$ a precios actuales),1997,477.64606190476195
-"Egipto, República Árabe de",Gasto nacional en salud del gobierno general per cápita (US$ a precios actuales),1997,33.51206666666667
-"Egipto, República Árabe de",Gasto de bolsillo per cápita (US$ actuales),1997,63.974171428571424
-"Egipto, República Árabe de",Gasto interno privado en salud per cápita (US$ a precios actuales),1997,71.39645714285714
+Egipto,Gasto nacional en salud del gobierno general per cápita (US$ a precios actuales),1997,33.51206666666667
+Egipto,Gasto de bolsillo per cápita (US$ actuales),1997,63.974171428571424
+Egipto,Gasto interno privado en salud per cápita (US$ a precios actuales),1997,71.39645714285714
 Cuba,Gasto nacional en salud del gobierno general per cápita (US$ a precios actuales),1997,559.2024
 Cuba,Gasto de bolsillo per cápita (US$ actuales),1997,70.23637142857143
 Cuba,Gasto interno privado en salud per cápita (US$ a precios actuales),1997,70.23637142857143
@@ -1388,9 +1388,9 @@ Fiji,Gasto interno privado en salud per cápita (US$ a precios actuales),1997,39
 Finlandia,Gasto nacional en salud del gobierno general per cápita (US$ a precios actuales),1997,3008.041695238095
 Finlandia,Gasto de bolsillo per cápita (US$ actuales),1997,710.4102714285715
 Finlandia,Gasto interno privado en salud per cápita (US$ a precios actuales),1997,810.8462380952382
-Federación de Rusia,Gasto nacional en salud del gobierno general per cápita (US$ a precios actuales),1997,296.0573904761905
-Federación de Rusia,Gasto de bolsillo per cápita (US$ actuales),1997,165.9586095238095
-Federación de Rusia,Gasto interno privado en salud per cápita (US$ a precios actuales),1997,183.81980476190478
+Rusia,Gasto nacional en salud del gobierno general per cápita (US$ a precios actuales),1997,296.0573904761905
+Rusia,Gasto de bolsillo per cápita (US$ actuales),1997,165.9586095238095
+Rusia,Gasto interno privado en salud per cápita (US$ a precios actuales),1997,183.81980476190478
 Grecia,Gasto nacional en salud del gobierno general per cápita (US$ a precios actuales),1997,1104.0007095238095
 Grecia,Gasto de bolsillo per cápita (US$ actuales),1997,617.5511
 Grecia,Gasto interno privado en salud per cápita (US$ a precios actuales),1997,711.5203285714285
@@ -1499,9 +1499,9 @@ Ecuador,Gasto interno privado en salud per cápita (US$ a precios actuales),1998
 Emiratos Árabes Unidos,Gasto nacional en salud del gobierno general per cápita (US$ a precios actuales),1998,856.5632190476191
 Emiratos Árabes Unidos,Gasto de bolsillo per cápita (US$ actuales),1998,249.96917142857143
 Emiratos Árabes Unidos,Gasto interno privado en salud per cápita (US$ a precios actuales),1998,477.64606190476195
-"Egipto, República Árabe de",Gasto nacional en salud del gobierno general per cápita (US$ a precios actuales),1998,33.51206666666667
-"Egipto, República Árabe de",Gasto de bolsillo per cápita (US$ actuales),1998,63.974171428571424
-"Egipto, República Árabe de",Gasto interno privado en salud per cápita (US$ a precios actuales),1998,71.39645714285714
+Egipto,Gasto nacional en salud del gobierno general per cápita (US$ a precios actuales),1998,33.51206666666667
+Egipto,Gasto de bolsillo per cápita (US$ actuales),1998,63.974171428571424
+Egipto,Gasto interno privado en salud per cápita (US$ a precios actuales),1998,71.39645714285714
 Cuba,Gasto nacional en salud del gobierno general per cápita (US$ a precios actuales),1998,559.2024
 Cuba,Gasto de bolsillo per cápita (US$ actuales),1998,70.23637142857143
 Cuba,Gasto interno privado en salud per cápita (US$ a precios actuales),1998,70.23637142857143
@@ -1520,9 +1520,9 @@ Fiji,Gasto interno privado en salud per cápita (US$ a precios actuales),1998,39
 Finlandia,Gasto nacional en salud del gobierno general per cápita (US$ a precios actuales),1998,3008.041695238095
 Finlandia,Gasto de bolsillo per cápita (US$ actuales),1998,710.4102714285715
 Finlandia,Gasto interno privado en salud per cápita (US$ a precios actuales),1998,810.8462380952382
-Federación de Rusia,Gasto nacional en salud del gobierno general per cápita (US$ a precios actuales),1998,296.0573904761905
-Federación de Rusia,Gasto de bolsillo per cápita (US$ actuales),1998,165.9586095238095
-Federación de Rusia,Gasto interno privado en salud per cápita (US$ a precios actuales),1998,183.81980476190478
+Rusia,Gasto nacional en salud del gobierno general per cápita (US$ a precios actuales),1998,296.0573904761905
+Rusia,Gasto de bolsillo per cápita (US$ actuales),1998,165.9586095238095
+Rusia,Gasto interno privado en salud per cápita (US$ a precios actuales),1998,183.81980476190478
 Grecia,Gasto nacional en salud del gobierno general per cápita (US$ a precios actuales),1998,1104.0007095238095
 Grecia,Gasto de bolsillo per cápita (US$ actuales),1998,617.5511
 Grecia,Gasto interno privado en salud per cápita (US$ a precios actuales),1998,711.5203285714285
@@ -1631,9 +1631,9 @@ Ecuador,Gasto interno privado en salud per cápita (US$ a precios actuales),1999
 Emiratos Árabes Unidos,Gasto nacional en salud del gobierno general per cápita (US$ a precios actuales),1999,856.5632190476191
 Emiratos Árabes Unidos,Gasto de bolsillo per cápita (US$ actuales),1999,249.96917142857143
 Emiratos Árabes Unidos,Gasto interno privado en salud per cápita (US$ a precios actuales),1999,477.64606190476195
-"Egipto, República Árabe de",Gasto nacional en salud del gobierno general per cápita (US$ a precios actuales),1999,33.51206666666667
-"Egipto, República Árabe de",Gasto de bolsillo per cápita (US$ actuales),1999,63.974171428571424
-"Egipto, República Árabe de",Gasto interno privado en salud per cápita (US$ a precios actuales),1999,71.39645714285714
+Egipto,Gasto nacional en salud del gobierno general per cápita (US$ a precios actuales),1999,33.51206666666667
+Egipto,Gasto de bolsillo per cápita (US$ actuales),1999,63.974171428571424
+Egipto,Gasto interno privado en salud per cápita (US$ a precios actuales),1999,71.39645714285714
 Cuba,Gasto nacional en salud del gobierno general per cápita (US$ a precios actuales),1999,559.2024
 Cuba,Gasto de bolsillo per cápita (US$ actuales),1999,70.23637142857143
 Cuba,Gasto interno privado en salud per cápita (US$ a precios actuales),1999,70.23637142857143
@@ -1652,9 +1652,9 @@ Fiji,Gasto interno privado en salud per cápita (US$ a precios actuales),1999,39
 Finlandia,Gasto nacional en salud del gobierno general per cápita (US$ a precios actuales),1999,3008.041695238095
 Finlandia,Gasto de bolsillo per cápita (US$ actuales),1999,710.4102714285715
 Finlandia,Gasto interno privado en salud per cápita (US$ a precios actuales),1999,810.8462380952382
-Federación de Rusia,Gasto nacional en salud del gobierno general per cápita (US$ a precios actuales),1999,296.0573904761905
-Federación de Rusia,Gasto de bolsillo per cápita (US$ actuales),1999,165.9586095238095
-Federación de Rusia,Gasto interno privado en salud per cápita (US$ a precios actuales),1999,183.81980476190478
+Rusia,Gasto nacional en salud del gobierno general per cápita (US$ a precios actuales),1999,296.0573904761905
+Rusia,Gasto de bolsillo per cápita (US$ actuales),1999,165.9586095238095
+Rusia,Gasto interno privado en salud per cápita (US$ a precios actuales),1999,183.81980476190478
 Grecia,Gasto nacional en salud del gobierno general per cápita (US$ a precios actuales),1999,1104.0007095238095
 Grecia,Gasto de bolsillo per cápita (US$ actuales),1999,617.5511
 Grecia,Gasto interno privado en salud per cápita (US$ a precios actuales),1999,711.5203285714285
@@ -1763,9 +1763,9 @@ Ecuador,Gasto interno privado en salud per cápita (US$ a precios actuales),2000
 Emiratos Árabes Unidos,Gasto nacional en salud del gobierno general per cápita (US$ a precios actuales),2000,518.3453
 Emiratos Árabes Unidos,Gasto de bolsillo per cápita (US$ actuales),2000,166.3049
 Emiratos Árabes Unidos,Gasto interno privado en salud per cápita (US$ a precios actuales),2000,234.7302
-"Egipto, República Árabe de",Gasto nacional en salud del gobierno general per cápita (US$ a precios actuales),2000,24.9955
-"Egipto, República Árabe de",Gasto de bolsillo per cápita (US$ actuales),2000,44.3897
-"Egipto, República Árabe de",Gasto interno privado en salud per cápita (US$ a precios actuales),2000,46.0402
+Egipto,Gasto nacional en salud del gobierno general per cápita (US$ a precios actuales),2000,24.9955
+Egipto,Gasto de bolsillo per cápita (US$ actuales),2000,44.3897
+Egipto,Gasto interno privado en salud per cápita (US$ a precios actuales),2000,46.0402
 Cuba,Gasto nacional en salud del gobierno general per cápita (US$ a precios actuales),2000,151.6146
 Cuba,Gasto de bolsillo per cápita (US$ actuales),2000,29.3991
 Cuba,Gasto interno privado en salud per cápita (US$ a precios actuales),2000,29.3991
@@ -1784,9 +1784,9 @@ Fiji,Gasto interno privado en salud per cápita (US$ a precios actuales),2000,11
 Finlandia,Gasto nacional en salud del gobierno general per cápita (US$ a precios actuales),2000,1307.642
 Finlandia,Gasto de bolsillo per cápita (US$ actuales),2000,373.4436
 Finlandia,Gasto interno privado en salud per cápita (US$ a precios actuales),2000,418.9954
-Federación de Rusia,Gasto nacional en salud del gobierno general per cápita (US$ a precios actuales),2000,56.4638
-Federación de Rusia,Gasto de bolsillo per cápita (US$ actuales),2000,28.7366
-Federación de Rusia,Gasto interno privado en salud per cápita (US$ a precios actuales),2000,38.4687
+Rusia,Gasto nacional en salud del gobierno general per cápita (US$ a precios actuales),2000,56.4638
+Rusia,Gasto de bolsillo per cápita (US$ actuales),2000,28.7366
+Rusia,Gasto interno privado en salud per cápita (US$ a precios actuales),2000,38.4687
 Grecia,Gasto nacional en salud del gobierno general per cápita (US$ a precios actuales),2000,545.6469
 Grecia,Gasto de bolsillo per cápita (US$ actuales),2000,321.1571
 Grecia,Gasto interno privado en salud per cápita (US$ a precios actuales),2000,339.7636
@@ -1895,9 +1895,9 @@ Ecuador,Gasto interno privado en salud per cápita (US$ a precios actuales),2001
 Emiratos Árabes Unidos,Gasto nacional en salud del gobierno general per cápita (US$ a precios actuales),2001,572.2263
 Emiratos Árabes Unidos,Gasto de bolsillo per cápita (US$ actuales),2001,112.0961
 Emiratos Árabes Unidos,Gasto interno privado en salud per cápita (US$ a precios actuales),2001,170.8244
-"Egipto, República Árabe de",Gasto nacional en salud del gobierno general per cápita (US$ a precios actuales),2001,24.0802
-"Egipto, República Árabe de",Gasto de bolsillo per cápita (US$ actuales),2001,44.9128
-"Egipto, República Árabe de",Gasto interno privado en salud per cápita (US$ a precios actuales),2001,46.2878
+Egipto,Gasto nacional en salud del gobierno general per cápita (US$ a precios actuales),2001,24.0802
+Egipto,Gasto de bolsillo per cápita (US$ actuales),2001,44.9128
+Egipto,Gasto interno privado en salud per cápita (US$ a precios actuales),2001,46.2878
 Cuba,Gasto nacional en salud del gobierno general per cápita (US$ a precios actuales),2001,161.2873
 Cuba,Gasto de bolsillo per cápita (US$ actuales),2001,37.1483
 Cuba,Gasto interno privado en salud per cápita (US$ a precios actuales),2001,37.1483
@@ -1916,9 +1916,9 @@ Fiji,Gasto interno privado en salud per cápita (US$ a precios actuales),2001,11
 Finlandia,Gasto nacional en salud del gobierno general per cápita (US$ a precios actuales),2001,1379.8287
 Finlandia,Gasto de bolsillo per cápita (US$ actuales),2001,384.1493
 Finlandia,Gasto interno privado en salud per cápita (US$ a precios actuales),2001,430.3915
-Federación de Rusia,Gasto nacional en salud del gobierno general per cápita (US$ a precios actuales),2001,68.3624
-Federación de Rusia,Gasto de bolsillo per cápita (US$ actuales),2001,36.268
-Federación de Rusia,Gasto interno privado en salud per cápita (US$ a precios actuales),2001,49.1857
+Rusia,Gasto nacional en salud del gobierno general per cápita (US$ a precios actuales),2001,68.3624
+Rusia,Gasto de bolsillo per cápita (US$ actuales),2001,36.268
+Rusia,Gasto interno privado en salud per cápita (US$ a precios actuales),2001,49.1857
 Grecia,Gasto nacional en salud del gobierno general per cápita (US$ a precios actuales),2001,635.1075
 Grecia,Gasto de bolsillo per cápita (US$ actuales),2001,349.4579
 Grecia,Gasto interno privado en salud per cápita (US$ a precios actuales),2001,369.7079
@@ -2027,9 +2027,9 @@ Ecuador,Gasto interno privado en salud per cápita (US$ a precios actuales),2002
 Emiratos Árabes Unidos,Gasto nacional en salud del gobierno general per cápita (US$ a precios actuales),2002,502.9002
 Emiratos Árabes Unidos,Gasto de bolsillo per cápita (US$ actuales),2002,230.3176
 Emiratos Árabes Unidos,Gasto interno privado en salud per cápita (US$ a precios actuales),2002,318.4449
-"Egipto, República Árabe de",Gasto nacional en salud del gobierno general per cápita (US$ a precios actuales),2002,22.6021
-"Egipto, República Árabe de",Gasto de bolsillo per cápita (US$ actuales),2002,41.8226
-"Egipto, República Árabe de",Gasto interno privado en salud per cápita (US$ a precios actuales),2002,42.9847
+Egipto,Gasto nacional en salud del gobierno general per cápita (US$ a precios actuales),2002,22.6021
+Egipto,Gasto de bolsillo per cápita (US$ actuales),2002,41.8226
+Egipto,Gasto interno privado en salud per cápita (US$ a precios actuales),2002,42.9847
 Cuba,Gasto nacional en salud del gobierno general per cápita (US$ a precios actuales),2002,172.2463
 Cuba,Gasto de bolsillo per cápita (US$ actuales),2002,41.4591
 Cuba,Gasto interno privado en salud per cápita (US$ a precios actuales),2002,41.4591
@@ -2048,9 +2048,9 @@ Fiji,Gasto interno privado en salud per cápita (US$ a precios actuales),2002,12
 Finlandia,Gasto nacional en salud del gobierno general per cápita (US$ a precios actuales),2002,1581.9756
 Finlandia,Gasto de bolsillo per cápita (US$ actuales),2002,427.1944
 Finlandia,Gasto interno privado en salud per cápita (US$ a precios actuales),2002,477.1359
-Federación de Rusia,Gasto nacional en salud del gobierno general per cápita (US$ a precios actuales),2002,81.8487
-Federación de Rusia,Gasto de bolsillo per cápita (US$ actuales),2002,43.8209
-Federación de Rusia,Gasto interno privado en salud per cápita (US$ a precios actuales),2002,58.2818
+Rusia,Gasto nacional en salud del gobierno general per cápita (US$ a precios actuales),2002,81.8487
+Rusia,Gasto de bolsillo per cápita (US$ actuales),2002,43.8209
+Rusia,Gasto interno privado en salud per cápita (US$ a precios actuales),2002,58.2818
 Grecia,Gasto nacional en salud del gobierno general per cápita (US$ a precios actuales),2002,706.644
 Grecia,Gasto de bolsillo per cápita (US$ actuales),2002,436.9087
 Grecia,Gasto interno privado en salud per cápita (US$ a precios actuales),2002,462.1801
@@ -2159,9 +2159,9 @@ Ecuador,Gasto interno privado en salud per cápita (US$ a precios actuales),2003
 Emiratos Árabes Unidos,Gasto nacional en salud del gobierno general per cápita (US$ a precios actuales),2003,528.7447
 Emiratos Árabes Unidos,Gasto de bolsillo per cápita (US$ actuales),2003,236.9267
 Emiratos Árabes Unidos,Gasto interno privado en salud per cápita (US$ a precios actuales),2003,334.1586
-"Egipto, República Árabe de",Gasto nacional en salud del gobierno general per cápita (US$ a precios actuales),2003,16.472
-"Egipto, República Árabe de",Gasto de bolsillo per cápita (US$ actuales),2003,33.7494
-"Egipto, República Árabe de",Gasto interno privado en salud per cápita (US$ a precios actuales),2003,34.6854
+Egipto,Gasto nacional en salud del gobierno general per cápita (US$ a precios actuales),2003,16.472
+Egipto,Gasto de bolsillo per cápita (US$ actuales),2003,33.7494
+Egipto,Gasto interno privado en salud per cápita (US$ a precios actuales),2003,34.6854
 Cuba,Gasto nacional en salud del gobierno general per cápita (US$ a precios actuales),2003,181.093
 Cuba,Gasto de bolsillo per cápita (US$ actuales),2003,46.28
 Cuba,Gasto interno privado en salud per cápita (US$ a precios actuales),2003,46.28
@@ -2180,9 +2180,9 @@ Fiji,Gasto interno privado en salud per cápita (US$ a precios actuales),2003,15
 Finlandia,Gasto nacional en salud del gobierno general per cápita (US$ a precios actuales),2003,2020.8689
 Finlandia,Gasto de bolsillo per cápita (US$ actuales),2003,531.5802
 Finlandia,Gasto interno privado en salud per cápita (US$ a precios actuales),2003,592.8588
-Federación de Rusia,Gasto nacional en salud del gobierno general per cápita (US$ a precios actuales),2003,95.4372
-Federación de Rusia,Gasto de bolsillo per cápita (US$ actuales),2003,54.6676
-Federación de Rusia,Gasto interno privado en salud per cápita (US$ a precios actuales),2003,68.5818
+Rusia,Gasto nacional en salud del gobierno general per cápita (US$ a precios actuales),2003,95.4372
+Rusia,Gasto de bolsillo per cápita (US$ actuales),2003,54.6676
+Rusia,Gasto interno privado en salud per cápita (US$ a precios actuales),2003,68.5818
 Grecia,Gasto nacional en salud del gobierno general per cápita (US$ a precios actuales),2003,937.7139
 Grecia,Gasto de bolsillo per cápita (US$ actuales),2003,593.6624
 Grecia,Gasto interno privado en salud per cápita (US$ a precios actuales),2003,628.6916
@@ -2291,9 +2291,9 @@ Ecuador,Gasto interno privado en salud per cápita (US$ a precios actuales),2004
 Emiratos Árabes Unidos,Gasto nacional en salud del gobierno general per cápita (US$ a precios actuales),2004,520.4719
 Emiratos Árabes Unidos,Gasto de bolsillo per cápita (US$ actuales),2004,277.1398
 Emiratos Árabes Unidos,Gasto interno privado en salud per cápita (US$ a precios actuales),2004,390.9208
-"Egipto, República Árabe de",Gasto nacional en salud del gobierno general per cápita (US$ a precios actuales),2004,16.7753
-"Egipto, República Árabe de",Gasto de bolsillo per cápita (US$ actuales),2004,33.3092
-"Egipto, República Árabe de",Gasto interno privado en salud per cápita (US$ a precios actuales),2004,34.2752
+Egipto,Gasto nacional en salud del gobierno general per cápita (US$ a precios actuales),2004,16.7753
+Egipto,Gasto de bolsillo per cápita (US$ actuales),2004,33.3092
+Egipto,Gasto interno privado en salud per cápita (US$ a precios actuales),2004,34.2752
 Cuba,Gasto nacional en salud del gobierno general per cápita (US$ a precios actuales),2004,186.1065
 Cuba,Gasto de bolsillo per cápita (US$ actuales),2004,45.5667
 Cuba,Gasto interno privado en salud per cápita (US$ a precios actuales),2004,45.5667
@@ -2312,9 +2312,9 @@ Fiji,Gasto interno privado en salud per cápita (US$ a precios actuales),2004,20
 Finlandia,Gasto nacional en salud del gobierno general per cápita (US$ a precios actuales),2004,2369.4931
 Finlandia,Gasto de bolsillo per cápita (US$ actuales),2004,604.5506
 Finlandia,Gasto interno privado en salud per cápita (US$ a precios actuales),2004,674.5781
-Federación de Rusia,Gasto nacional en salud del gobierno general per cápita (US$ a precios actuales),2004,122.7065
-Federación de Rusia,Gasto de bolsillo per cápita (US$ actuales),2004,70.5877
-Federación de Rusia,Gasto interno privado en salud per cápita (US$ a precios actuales),2004,85.8305
+Rusia,Gasto nacional en salud del gobierno general per cápita (US$ a precios actuales),2004,122.7065
+Rusia,Gasto de bolsillo per cápita (US$ actuales),2004,70.5877
+Rusia,Gasto interno privado en salud per cápita (US$ a precios actuales),2004,85.8305
 Grecia,Gasto nacional en salud del gobierno general per cápita (US$ a precios actuales),2004,1045.1151
 Grecia,Gasto de bolsillo per cápita (US$ actuales),2004,694.5582
 Grecia,Gasto interno privado en salud per cápita (US$ a precios actuales),2004,737.6093
@@ -2423,9 +2423,9 @@ Ecuador,Gasto interno privado en salud per cápita (US$ a precios actuales),2005
 Emiratos Árabes Unidos,Gasto nacional en salud del gobierno general per cápita (US$ a precios actuales),2005,556.4196
 Emiratos Árabes Unidos,Gasto de bolsillo per cápita (US$ actuales),2005,295.0338
 Emiratos Árabes Unidos,Gasto interno privado en salud per cápita (US$ a precios actuales),2005,422.4847
-"Egipto, República Árabe de",Gasto nacional en salud del gobierno general per cápita (US$ a precios actuales),2005,19.6931
-"Egipto, República Árabe de",Gasto de bolsillo per cápita (US$ actuales),2005,39.3905
-"Egipto, República Árabe de",Gasto interno privado en salud per cápita (US$ a precios actuales),2005,40.5503
+Egipto,Gasto nacional en salud del gobierno general per cápita (US$ a precios actuales),2005,19.6931
+Egipto,Gasto de bolsillo per cápita (US$ actuales),2005,39.3905
+Egipto,Gasto interno privado en salud per cápita (US$ a precios actuales),2005,40.5503
 Cuba,Gasto nacional en salud del gobierno general per cápita (US$ a precios actuales),2005,281.742
 Cuba,Gasto de bolsillo per cápita (US$ actuales),2005,49.2792
 Cuba,Gasto interno privado en salud per cápita (US$ a precios actuales),2005,49.2792
@@ -2444,9 +2444,9 @@ Fiji,Gasto interno privado en salud per cápita (US$ a precios actuales),2005,20
 Finlandia,Gasto nacional en salud del gobierno general per cápita (US$ a precios actuales),2005,2518.5378
 Finlandia,Gasto de bolsillo per cápita (US$ actuales),2005,633.6522
 Finlandia,Gasto interno privado en salud per cápita (US$ a precios actuales),2005,718.2804
-Federación de Rusia,Gasto nacional en salud del gobierno general per cápita (US$ a precios actuales),2005,166.0936
-Federación de Rusia,Gasto de bolsillo per cápita (US$ actuales),2005,86.7406
-Federación de Rusia,Gasto interno privado en salud per cápita (US$ a precios actuales),2005,105.2787
+Rusia,Gasto nacional en salud del gobierno general per cápita (US$ a precios actuales),2005,166.0936
+Rusia,Gasto de bolsillo per cápita (US$ actuales),2005,86.7406
+Rusia,Gasto interno privado en salud per cápita (US$ a precios actuales),2005,105.2787
 Grecia,Gasto nacional en salud del gobierno general per cápita (US$ a precios actuales),2005,1177.3024
 Grecia,Gasto de bolsillo per cápita (US$ actuales),2005,713.6347
 Grecia,Gasto interno privado en salud per cápita (US$ a precios actuales),2005,757.9606
@@ -2555,9 +2555,9 @@ Ecuador,Gasto interno privado en salud per cápita (US$ a precios actuales),2006
 Emiratos Árabes Unidos,Gasto nacional en salud del gobierno general per cápita (US$ a precios actuales),2006,604.1772
 Emiratos Árabes Unidos,Gasto de bolsillo per cápita (US$ actuales),2006,313.2382
 Emiratos Árabes Unidos,Gasto interno privado en salud per cápita (US$ a precios actuales),2006,450.1557
-"Egipto, República Árabe de",Gasto nacional en salud del gobierno general per cápita (US$ a precios actuales),2006,24.5077
-"Egipto, República Árabe de",Gasto de bolsillo per cápita (US$ actuales),2006,41.1021
-"Egipto, República Árabe de",Gasto interno privado en salud per cápita (US$ a precios actuales),2006,42.4563
+Egipto,Gasto nacional en salud del gobierno general per cápita (US$ a precios actuales),2006,24.5077
+Egipto,Gasto de bolsillo per cápita (US$ actuales),2006,41.1021
+Egipto,Gasto interno privado en salud per cápita (US$ a precios actuales),2006,42.4563
 Cuba,Gasto nacional en salud del gobierno general per cápita (US$ a precios actuales),2006,331.6376
 Cuba,Gasto de bolsillo per cápita (US$ actuales),2006,55.2633
 Cuba,Gasto interno privado en salud per cápita (US$ a precios actuales),2006,55.2633
@@ -2576,9 +2576,9 @@ Fiji,Gasto interno privado en salud per cápita (US$ a precios actuales),2006,27
 Finlandia,Gasto nacional en salud del gobierno general per cápita (US$ a precios actuales),2006,2689.0593
 Finlandia,Gasto de bolsillo per cápita (US$ actuales),2006,642.575
 Finlandia,Gasto interno privado en salud per cápita (US$ a precios actuales),2006,725.831
-Federación de Rusia,Gasto nacional en salud del gobierno general per cápita (US$ a precios actuales),2006,217.7276
-Federación de Rusia,Gasto de bolsillo per cápita (US$ actuales),2006,109.7877
-Federación de Rusia,Gasto interno privado en salud per cápita (US$ a precios actuales),2006,134.701
+Rusia,Gasto nacional en salud del gobierno general per cápita (US$ a precios actuales),2006,217.7276
+Rusia,Gasto de bolsillo per cápita (US$ actuales),2006,109.7877
+Rusia,Gasto interno privado en salud per cápita (US$ a precios actuales),2006,134.701
 Grecia,Gasto nacional en salud del gobierno general per cápita (US$ a precios actuales),2006,1264.7585
 Grecia,Gasto de bolsillo per cápita (US$ actuales),2006,739.9612
 Grecia,Gasto interno privado en salud per cápita (US$ a precios actuales),2006,788.1286
@@ -2687,9 +2687,9 @@ Ecuador,Gasto interno privado en salud per cápita (US$ a precios actuales),2007
 Emiratos Árabes Unidos,Gasto nacional en salud del gobierno general per cápita (US$ a precios actuales),2007,661.1425
 Emiratos Árabes Unidos,Gasto de bolsillo per cápita (US$ actuales),2007,325.3812
 Emiratos Árabes Unidos,Gasto interno privado en salud per cápita (US$ a precios actuales),2007,465.6698
-"Egipto, República Árabe de",Gasto nacional en salud del gobierno general per cápita (US$ a precios actuales),2007,26.5119
-"Egipto, República Árabe de",Gasto de bolsillo per cápita (US$ actuales),2007,45.3233
-"Egipto, República Árabe de",Gasto interno privado en salud per cápita (US$ a precios actuales),2007,47.0455
+Egipto,Gasto nacional en salud del gobierno general per cápita (US$ a precios actuales),2007,26.5119
+Egipto,Gasto de bolsillo per cápita (US$ actuales),2007,45.3233
+Egipto,Gasto interno privado en salud per cápita (US$ a precios actuales),2007,47.0455
 Cuba,Gasto nacional en salud del gobierno general per cápita (US$ a precios actuales),2007,513.8916
 Cuba,Gasto de bolsillo per cápita (US$ actuales),2007,55.7947
 Cuba,Gasto interno privado en salud per cápita (US$ a precios actuales),2007,55.7947
@@ -2708,9 +2708,9 @@ Fiji,Gasto interno privado en salud per cápita (US$ a precios actuales),2007,34
 Finlandia,Gasto nacional en salud del gobierno general per cápita (US$ a precios actuales),2007,3080.9109
 Finlandia,Gasto de bolsillo per cápita (US$ actuales),2007,744.4779
 Finlandia,Gasto interno privado en salud per cápita (US$ a precios actuales),2007,837.7011
-Federación de Rusia,Gasto nacional en salud del gobierno general per cápita (US$ a precios actuales),2007,286.6808
-Federación de Rusia,Gasto de bolsillo per cápita (US$ actuales),2007,145.285
-Federación de Rusia,Gasto interno privado en salud per cápita (US$ a precios actuales),2007,175.003
+Rusia,Gasto nacional en salud del gobierno general per cápita (US$ a precios actuales),2007,286.6808
+Rusia,Gasto de bolsillo per cápita (US$ actuales),2007,145.285
+Rusia,Gasto interno privado en salud per cápita (US$ a precios actuales),2007,175.003
 Grecia,Gasto nacional en salud del gobierno general per cápita (US$ a precios actuales),2007,1537.0065
 Grecia,Gasto de bolsillo per cápita (US$ actuales),2007,830.519
 Grecia,Gasto interno privado en salud per cápita (US$ a precios actuales),2007,889.7068
@@ -2819,9 +2819,9 @@ Ecuador,Gasto interno privado en salud per cápita (US$ a precios actuales),2008
 Emiratos Árabes Unidos,Gasto nacional en salud del gobierno general per cápita (US$ a precios actuales),2008,844.855
 Emiratos Árabes Unidos,Gasto de bolsillo per cápita (US$ actuales),2008,332.2889
 Emiratos Árabes Unidos,Gasto interno privado en salud per cápita (US$ a precios actuales),2008,477.0819
-"Egipto, República Árabe de",Gasto nacional en salud del gobierno general per cápita (US$ a precios actuales),2008,31.755
-"Egipto, República Árabe de",Gasto de bolsillo per cápita (US$ actuales),2008,57.0818
-"Egipto, República Árabe de",Gasto interno privado en salud per cápita (US$ a precios actuales),2008,59.3212
+Egipto,Gasto nacional en salud del gobierno general per cápita (US$ a precios actuales),2008,31.755
+Egipto,Gasto de bolsillo per cápita (US$ actuales),2008,57.0818
+Egipto,Gasto interno privado en salud per cápita (US$ a precios actuales),2008,59.3212
 Cuba,Gasto nacional en salud del gobierno general per cápita (US$ a precios actuales),2008,554.9969
 Cuba,Gasto de bolsillo per cápita (US$ actuales),2008,53.9169
 Cuba,Gasto interno privado en salud per cápita (US$ a precios actuales),2008,53.9169
@@ -2840,9 +2840,9 @@ Fiji,Gasto interno privado en salud per cápita (US$ a precios actuales),2008,32
 Finlandia,Gasto nacional en salud del gobierno general per cápita (US$ a precios actuales),2008,3536.4876
 Finlandia,Gasto de bolsillo per cápita (US$ actuales),2008,833.2512
 Finlandia,Gasto interno privado en salud per cápita (US$ a precios actuales),2008,949.8716
-Federación de Rusia,Gasto nacional en salud del gobierno general per cápita (US$ a precios actuales),2008,381.9336
-Federación de Rusia,Gasto de bolsillo per cápita (US$ actuales),2008,192.4009
-Federación de Rusia,Gasto interno privado en salud per cápita (US$ a precios actuales),2008,227.6079
+Rusia,Gasto nacional en salud del gobierno general per cápita (US$ a precios actuales),2008,381.9336
+Rusia,Gasto de bolsillo per cápita (US$ actuales),2008,192.4009
+Rusia,Gasto interno privado en salud per cápita (US$ a precios actuales),2008,227.6079
 Grecia,Gasto nacional en salud del gobierno general per cápita (US$ a precios actuales),2008,1855.8396
 Grecia,Gasto de bolsillo per cápita (US$ actuales),2008,914.8777
 Grecia,Gasto interno privado en salud per cápita (US$ a precios actuales),2008,984.6426
@@ -2951,9 +2951,9 @@ Ecuador,Gasto interno privado en salud per cápita (US$ a precios actuales),2009
 Emiratos Árabes Unidos,Gasto nacional en salud del gobierno general per cápita (US$ a precios actuales),2009,946.6499
 Emiratos Árabes Unidos,Gasto de bolsillo per cápita (US$ actuales),2009,206.8516
 Emiratos Árabes Unidos,Gasto interno privado en salud per cápita (US$ a precios actuales),2009,338.1132
-"Egipto, República Árabe de",Gasto nacional en salud del gobierno general per cápita (US$ a precios actuales),2009,35.474
-"Egipto, República Árabe de",Gasto de bolsillo per cápita (US$ actuales),2009,61.173
-"Egipto, República Árabe de",Gasto interno privado en salud per cápita (US$ a precios actuales),2009,64.1157
+Egipto,Gasto nacional en salud del gobierno general per cápita (US$ a precios actuales),2009,35.474
+Egipto,Gasto de bolsillo per cápita (US$ actuales),2009,61.173
+Egipto,Gasto interno privado en salud per cápita (US$ a precios actuales),2009,64.1157
 Cuba,Gasto nacional en salud del gobierno general per cápita (US$ a precios actuales),2009,620.7862
 Cuba,Gasto de bolsillo per cápita (US$ actuales),2009,54.7718
 Cuba,Gasto interno privado en salud per cápita (US$ a precios actuales),2009,54.7718
@@ -2972,9 +2972,9 @@ Fiji,Gasto interno privado en salud per cápita (US$ a precios actuales),2009,37
 Finlandia,Gasto nacional en salud del gobierno general per cápita (US$ a precios actuales),2009,3437.5756
 Finlandia,Gasto de bolsillo per cápita (US$ actuales),2009,796.7925
 Finlandia,Gasto interno privado en salud per cápita (US$ a precios actuales),2009,912.1516
-Federación de Rusia,Gasto nacional en salud del gobierno general per cápita (US$ a precios actuales),2009,320.5399
-Federación de Rusia,Gasto de bolsillo per cápita (US$ actuales),2009,178.5971
-Federación de Rusia,Gasto interno privado en salud per cápita (US$ a precios actuales),2009,195.903
+Rusia,Gasto nacional en salud del gobierno general per cápita (US$ a precios actuales),2009,320.5399
+Rusia,Gasto de bolsillo per cápita (US$ actuales),2009,178.5971
+Rusia,Gasto interno privado en salud per cápita (US$ a precios actuales),2009,195.903
 Grecia,Gasto nacional en salud del gobierno general per cápita (US$ a precios actuales),2009,1919.1734
 Grecia,Gasto de bolsillo per cápita (US$ actuales),2009,828.7566
 Grecia,Gasto interno privado en salud per cápita (US$ a precios actuales),2009,889.6774
@@ -3083,9 +3083,9 @@ Ecuador,Gasto interno privado en salud per cápita (US$ a precios actuales),2010
 Emiratos Árabes Unidos,Gasto nacional en salud del gobierno general per cápita (US$ a precios actuales),2010,938.9616
 Emiratos Árabes Unidos,Gasto de bolsillo per cápita (US$ actuales),2010,237.8176
 Emiratos Árabes Unidos,Gasto interno privado en salud per cápita (US$ a precios actuales),2010,386.2416
-"Egipto, República Árabe de",Gasto nacional en salud del gobierno general per cápita (US$ a precios actuales),2010,35.3741
-"Egipto, República Árabe de",Gasto de bolsillo per cápita (US$ actuales),2010,67.2744
-"Egipto, República Árabe de",Gasto interno privado en salud per cápita (US$ a precios actuales),2010,71.3557
+Egipto,Gasto nacional en salud del gobierno general per cápita (US$ a precios actuales),2010,35.3741
+Egipto,Gasto de bolsillo per cápita (US$ actuales),2010,67.2744
+Egipto,Gasto interno privado en salud per cápita (US$ a precios actuales),2010,71.3557
 Cuba,Gasto nacional en salud del gobierno general per cápita (US$ a precios actuales),2010,552.807
 Cuba,Gasto de bolsillo per cápita (US$ actuales),2010,55.9147
 Cuba,Gasto interno privado en salud per cápita (US$ a precios actuales),2010,55.9147
@@ -3104,9 +3104,9 @@ Fiji,Gasto interno privado en salud per cápita (US$ a precios actuales),2010,38
 Finlandia,Gasto nacional en salud del gobierno general per cápita (US$ a precios actuales),2010,3339.3415
 Finlandia,Gasto de bolsillo per cápita (US$ actuales),2010,799.4674
 Finlandia,Gasto interno privado en salud per cápita (US$ a precios actuales),2010,911.9534
-Federación de Rusia,Gasto nacional en salud del gobierno general per cápita (US$ a precios actuales),2010,348.0354
-Federación de Rusia,Gasto de bolsillo per cápita (US$ actuales),2010,200.3061
-Federación de Rusia,Gasto interno privado en salud per cápita (US$ a precios actuales),2010,218.9908
+Rusia,Gasto nacional en salud del gobierno general per cápita (US$ a precios actuales),2010,348.0354
+Rusia,Gasto de bolsillo per cápita (US$ actuales),2010,200.3061
+Rusia,Gasto interno privado en salud per cápita (US$ a precios actuales),2010,218.9908
 Grecia,Gasto nacional en salud del gobierno general per cápita (US$ a precios actuales),2010,1766.9642
 Grecia,Gasto de bolsillo per cápita (US$ actuales),2010,724.6614
 Grecia,Gasto interno privado en salud per cápita (US$ a precios actuales),2010,796.9068
@@ -3215,9 +3215,9 @@ Ecuador,Gasto interno privado en salud per cápita (US$ a precios actuales),2011
 Emiratos Árabes Unidos,Gasto nacional en salud del gobierno general per cápita (US$ a precios actuales),2011,1086.8958
 Emiratos Árabes Unidos,Gasto de bolsillo per cápita (US$ actuales),2011,253.3961
 Emiratos Árabes Unidos,Gasto interno privado en salud per cápita (US$ a precios actuales),2011,413.9067
-"Egipto, República Árabe de",Gasto nacional en salud del gobierno general per cápita (US$ a precios actuales),2011,40.1713
-"Egipto, República Árabe de",Gasto de bolsillo per cápita (US$ actuales),2011,71.8053
-"Egipto, República Árabe de",Gasto interno privado en salud per cápita (US$ a precios actuales),2011,77.8427
+Egipto,Gasto nacional en salud del gobierno general per cápita (US$ a precios actuales),2011,40.1713
+Egipto,Gasto de bolsillo per cápita (US$ actuales),2011,71.8053
+Egipto,Gasto interno privado en salud per cápita (US$ a precios actuales),2011,77.8427
 Cuba,Gasto nacional en salud del gobierno general per cápita (US$ a precios actuales),2011,619.3429
 Cuba,Gasto de bolsillo per cápita (US$ actuales),2011,75.2811
 Cuba,Gasto interno privado en salud per cápita (US$ a precios actuales),2011,75.2811
@@ -3236,9 +3236,9 @@ Fiji,Gasto interno privado en salud per cápita (US$ a precios actuales),2011,49
 Finlandia,Gasto nacional en salud del gobierno general per cápita (US$ a precios actuales),2011,3734.7206
 Finlandia,Gasto de bolsillo per cápita (US$ actuales),2011,856.3361
 Finlandia,Gasto interno privado en salud per cápita (US$ a precios actuales),2011,982.5653
-Federación de Rusia,Gasto nacional en salud del gobierno general per cápita (US$ a precios actuales),2011,428.7006
-Federación de Rusia,Gasto de bolsillo per cápita (US$ actuales),2011,233.9832
-Federación de Rusia,Gasto interno privado en salud per cápita (US$ a precios actuales),2011,255.5717
+Rusia,Gasto nacional en salud del gobierno general per cápita (US$ a precios actuales),2011,428.7006
+Rusia,Gasto de bolsillo per cápita (US$ actuales),2011,233.9832
+Rusia,Gasto interno privado en salud per cápita (US$ a precios actuales),2011,255.5717
 Grecia,Gasto nacional en salud del gobierno general per cápita (US$ a precios actuales),2011,1536.7378
 Grecia,Gasto de bolsillo per cápita (US$ actuales),2011,728.7703
 Grecia,Gasto interno privado en salud per cápita (US$ a precios actuales),2011,797.8226
@@ -3347,9 +3347,9 @@ Ecuador,Gasto interno privado en salud per cápita (US$ a precios actuales),2012
 Emiratos Árabes Unidos,Gasto nacional en salud del gobierno general per cápita (US$ a precios actuales),2012,1074.1906
 Emiratos Árabes Unidos,Gasto de bolsillo per cápita (US$ actuales),2012,247.8561
 Emiratos Árabes Unidos,Gasto interno privado en salud per cápita (US$ a precios actuales),2012,406.5368
-"Egipto, República Árabe de",Gasto nacional en salud del gobierno general per cápita (US$ a precios actuales),2012,40.9858
-"Egipto, República Árabe de",Gasto de bolsillo per cápita (US$ actuales),2012,86.9177
-"Egipto, República Árabe de",Gasto interno privado en salud per cápita (US$ a precios actuales),2012,101.2361
+Egipto,Gasto nacional en salud del gobierno general per cápita (US$ a precios actuales),2012,40.9858
+Egipto,Gasto de bolsillo per cápita (US$ actuales),2012,86.9177
+Egipto,Gasto interno privado en salud per cápita (US$ a precios actuales),2012,101.2361
 Cuba,Gasto nacional en salud del gobierno general per cápita (US$ a precios actuales),2012,521.4565
 Cuba,Gasto de bolsillo per cápita (US$ actuales),2012,78.9729
 Cuba,Gasto interno privado en salud per cápita (US$ a precios actuales),2012,78.9729
@@ -3368,9 +3368,9 @@ Fiji,Gasto interno privado en salud per cápita (US$ a precios actuales),2012,53
 Finlandia,Gasto nacional en salud del gobierno general per cápita (US$ a precios actuales),2012,3649.6831
 Finlandia,Gasto de bolsillo per cápita (US$ actuales),2012,798.5865
 Finlandia,Gasto interno privado en salud per cápita (US$ a precios actuales),2012,923.4757
-Federación de Rusia,Gasto nacional en salud del gobierno general per cápita (US$ a precios actuales),2012,483.5179
-Federación de Rusia,Gasto de bolsillo per cápita (US$ actuales),2012,253.476
-Federación de Rusia,Gasto interno privado en salud per cápita (US$ a precios actuales),2012,275.448
+Rusia,Gasto nacional en salud del gobierno general per cápita (US$ a precios actuales),2012,483.5179
+Rusia,Gasto de bolsillo per cápita (US$ actuales),2012,253.476
+Rusia,Gasto interno privado en salud per cápita (US$ a precios actuales),2012,275.448
 Grecia,Gasto nacional en salud del gobierno general per cápita (US$ a precios actuales),2012,1239.1605
 Grecia,Gasto de bolsillo per cápita (US$ actuales),2012,593.2214
 Grecia,Gasto interno privado en salud per cápita (US$ a precios actuales),2012,706.2511
@@ -3479,9 +3479,9 @@ Ecuador,Gasto interno privado en salud per cápita (US$ a precios actuales),2013
 Emiratos Árabes Unidos,Gasto nacional en salud del gobierno general per cápita (US$ a precios actuales),2013,1152.6653
 Emiratos Árabes Unidos,Gasto de bolsillo per cápita (US$ actuales),2013,274.7591
 Emiratos Árabes Unidos,Gasto interno privado en salud per cápita (US$ a precios actuales),2013,448.8874
-"Egipto, República Árabe de",Gasto nacional en salud del gobierno general per cápita (US$ a precios actuales),2013,41.7311
-"Egipto, República Árabe de",Gasto de bolsillo per cápita (US$ actuales),2013,82.6142
-"Egipto, República Árabe de",Gasto interno privado en salud per cápita (US$ a precios actuales),2013,100.6344
+Egipto,Gasto nacional en salud del gobierno general per cápita (US$ a precios actuales),2013,41.7311
+Egipto,Gasto de bolsillo per cápita (US$ actuales),2013,82.6142
+Egipto,Gasto interno privado en salud per cápita (US$ a precios actuales),2013,100.6344
 Cuba,Gasto nacional en salud del gobierno general per cápita (US$ a precios actuales),2013,622.7105
 Cuba,Gasto de bolsillo per cápita (US$ actuales),2013,87.2228
 Cuba,Gasto interno privado en salud per cápita (US$ a precios actuales),2013,87.2228
@@ -3500,9 +3500,9 @@ Fiji,Gasto interno privado en salud per cápita (US$ a precios actuales),2013,58
 Finlandia,Gasto nacional en salud del gobierno general per cápita (US$ a precios actuales),2013,3887.413
 Finlandia,Gasto de bolsillo per cápita (US$ actuales),2013,870.5407
 Finlandia,Gasto interno privado en salud per cápita (US$ a precios actuales),2013,1004.723
-Federación de Rusia,Gasto nacional en salud del gobierno general per cápita (US$ a precios actuales),2013,504.7486
-Federación de Rusia,Gasto de bolsillo per cápita (US$ actuales),2013,281.8428
-Federación de Rusia,Gasto interno privado en salud per cápita (US$ a precios actuales),2013,304.3944
+Rusia,Gasto nacional en salud del gobierno general per cápita (US$ a precios actuales),2013,504.7486
+Rusia,Gasto de bolsillo per cápita (US$ actuales),2013,281.8428
+Rusia,Gasto interno privado en salud per cápita (US$ a precios actuales),2013,304.3944
 Grecia,Gasto nacional en salud del gobierno general per cápita (US$ a precios actuales),2013,1124.7289
 Grecia,Gasto de bolsillo per cápita (US$ actuales),2013,618.1172
 Grecia,Gasto interno privado en salud per cápita (US$ a precios actuales),2013,692.2385
@@ -3611,9 +3611,9 @@ Ecuador,Gasto interno privado en salud per cápita (US$ a precios actuales),2014
 Emiratos Árabes Unidos,Gasto nacional en salud del gobierno general per cápita (US$ a precios actuales),2014,1175.5598
 Emiratos Árabes Unidos,Gasto de bolsillo per cápita (US$ actuales),2014,294.9455
 Emiratos Árabes Unidos,Gasto interno privado en salud per cápita (US$ a precios actuales),2014,480.7091
-"Egipto, República Árabe de",Gasto nacional en salud del gobierno general per cápita (US$ a precios actuales),2014,46.7376
-"Egipto, República Árabe de",Gasto de bolsillo per cápita (US$ actuales),2014,87.2052
-"Egipto, República Árabe de",Gasto interno privado en salud per cápita (US$ a precios actuales),2014,109.3044
+Egipto,Gasto nacional en salud del gobierno general per cápita (US$ a precios actuales),2014,46.7376
+Egipto,Gasto de bolsillo per cápita (US$ actuales),2014,87.2052
+Egipto,Gasto interno privado en salud per cápita (US$ a precios actuales),2014,109.3044
 Cuba,Gasto nacional en salud del gobierno general per cápita (US$ a precios actuales),2014,779.9081
 Cuba,Gasto de bolsillo per cápita (US$ actuales),2014,83.2949
 Cuba,Gasto interno privado en salud per cápita (US$ a precios actuales),2014,83.2949
@@ -3632,9 +3632,9 @@ Fiji,Gasto interno privado en salud per cápita (US$ a precios actuales),2014,61
 Finlandia,Gasto nacional en salud del gobierno general per cápita (US$ a precios actuales),2014,3916.2643
 Finlandia,Gasto de bolsillo per cápita (US$ actuales),2014,868.2298
 Finlandia,Gasto interno privado en salud per cápita (US$ a precios actuales),2014,1006.2823
-Federación de Rusia,Gasto nacional en salud del gobierno general per cápita (US$ a precios actuales),2014,456.9676
-Federación de Rusia,Gasto de bolsillo per cápita (US$ actuales),2014,264.9636
-Federación de Rusia,Gasto interno privado en salud per cápita (US$ a precios actuales),2014,282.6232
+Rusia,Gasto nacional en salud del gobierno general per cápita (US$ a precios actuales),2014,456.9676
+Rusia,Gasto de bolsillo per cápita (US$ actuales),2014,264.9636
+Rusia,Gasto interno privado en salud per cápita (US$ a precios actuales),2014,282.6232
 Grecia,Gasto nacional en salud del gobierno general per cápita (US$ a precios actuales),2014,967.1238
 Grecia,Gasto de bolsillo per cápita (US$ actuales),2014,632.5759
 Grecia,Gasto interno privado en salud per cápita (US$ a precios actuales),2014,711.1576
@@ -3743,9 +3743,9 @@ Ecuador,Gasto interno privado en salud per cápita (US$ a precios actuales),2015
 Emiratos Árabes Unidos,Gasto nacional en salud del gobierno general per cápita (US$ a precios actuales),2015,1025.5169
 Emiratos Árabes Unidos,Gasto de bolsillo per cápita (US$ actuales),2015,256.0465
 Emiratos Árabes Unidos,Gasto interno privado en salud per cápita (US$ a precios actuales),2015,413.7837
-"Egipto, República Árabe de",Gasto nacional en salud del gobierno general per cápita (US$ a precios actuales),2015,54.2135
-"Egipto, República Árabe de",Gasto de bolsillo per cápita (US$ actuales),2015,103.1648
-"Egipto, República Árabe de",Gasto interno privado en salud per cápita (US$ a precios actuales),2015,118.9552
+Egipto,Gasto nacional en salud del gobierno general per cápita (US$ a precios actuales),2015,54.2135
+Egipto,Gasto de bolsillo per cápita (US$ actuales),2015,103.1648
+Egipto,Gasto interno privado en salud per cápita (US$ a precios actuales),2015,118.9552
 Cuba,Gasto nacional en salud del gobierno general per cápita (US$ a precios actuales),2015,890.1339
 Cuba,Gasto de bolsillo per cápita (US$ actuales),2015,94.8153
 Cuba,Gasto interno privado en salud per cápita (US$ a precios actuales),2015,94.8153
@@ -3764,9 +3764,9 @@ Fiji,Gasto interno privado en salud per cápita (US$ a precios actuales),2015,58
 Finlandia,Gasto nacional en salud del gobierno general per cápita (US$ a precios actuales),2015,3243.4137
 Finlandia,Gasto de bolsillo per cápita (US$ actuales),2015,769.0755
 Finlandia,Gasto interno privado en salud per cápita (US$ a precios actuales),2015,884.9386
-Federación de Rusia,Gasto nacional en salud del gobierno general per cápita (US$ a precios actuales),2015,293.0913
-Federación de Rusia,Gasto de bolsillo per cápita (US$ actuales),2015,192.9017
-Federación de Rusia,Gasto interno privado en salud per cápita (US$ a precios actuales),2015,206.0549
+Rusia,Gasto nacional en salud del gobierno general per cápita (US$ a precios actuales),2015,293.0913
+Rusia,Gasto de bolsillo per cápita (US$ actuales),2015,192.9017
+Rusia,Gasto interno privado en salud per cápita (US$ a precios actuales),2015,206.0549
 Grecia,Gasto nacional en salud del gobierno general per cápita (US$ a precios actuales),2015,854.2432
 Grecia,Gasto de bolsillo per cápita (US$ actuales),2015,533.8206
 Grecia,Gasto interno privado en salud per cápita (US$ a precios actuales),2015,603.2578
@@ -3875,9 +3875,9 @@ Ecuador,Gasto interno privado en salud per cápita (US$ a precios actuales),2016
 Emiratos Árabes Unidos,Gasto nacional en salud del gobierno general per cápita (US$ a precios actuales),2016,992.4115
 Emiratos Árabes Unidos,Gasto de bolsillo per cápita (US$ actuales),2016,258.6664
 Emiratos Árabes Unidos,Gasto interno privado en salud per cápita (US$ a precios actuales),2016,383.4943
-"Egipto, República Árabe de",Gasto nacional en salud del gobierno general per cápita (US$ a precios actuales),2016,44.8423
-"Egipto, República Árabe de",Gasto de bolsillo per cápita (US$ actuales),2016,85.7094
-"Egipto, República Árabe de",Gasto interno privado en salud per cápita (US$ a precios actuales),2016,98.9673
+Egipto,Gasto nacional en salud del gobierno general per cápita (US$ a precios actuales),2016,44.8423
+Egipto,Gasto de bolsillo per cápita (US$ actuales),2016,85.7094
+Egipto,Gasto interno privado en salud per cápita (US$ a precios actuales),2016,98.9673
 Cuba,Gasto nacional en salud del gobierno general per cápita (US$ a precios actuales),2016,881.9601
 Cuba,Gasto de bolsillo per cápita (US$ actuales),2016,101.2342
 Cuba,Gasto interno privado en salud per cápita (US$ a precios actuales),2016,101.2342
@@ -3896,9 +3896,9 @@ Fiji,Gasto interno privado en salud per cápita (US$ a precios actuales),2016,58
 Finlandia,Gasto nacional en salud del gobierno general per cápita (US$ a precios actuales),2016,3198.1152
 Finlandia,Gasto de bolsillo per cápita (US$ actuales),2016,791.9098
 Finlandia,Gasto interno privado en salud per cápita (US$ a precios actuales),2016,910.7517
-Federación de Rusia,Gasto nacional en salud del gobierno general per cápita (US$ a precios actuales),2016,265.0628
-Federación de Rusia,Gasto de bolsillo per cápita (US$ actuales),2016,188.4278
-Federación de Rusia,Gasto interno privado en salud per cápita (US$ a precios actuales),2016,200.3675
+Rusia,Gasto nacional en salud del gobierno general per cápita (US$ a precios actuales),2016,265.0628
+Rusia,Gasto de bolsillo per cápita (US$ actuales),2016,188.4278
+Rusia,Gasto interno privado en salud per cápita (US$ a precios actuales),2016,200.3675
 Grecia,Gasto nacional en salud del gobierno general per cápita (US$ a precios actuales),2016,777.7966
 Grecia,Gasto de bolsillo per cápita (US$ actuales),2016,519.1714
 Grecia,Gasto interno privado en salud per cápita (US$ a precios actuales),2016,731.5997
@@ -4007,9 +4007,9 @@ Ecuador,Gasto interno privado en salud per cápita (US$ a precios actuales),2017
 Emiratos Árabes Unidos,Gasto nacional en salud del gobierno general per cápita (US$ a precios actuales),2017,946.1766
 Emiratos Árabes Unidos,Gasto de bolsillo per cápita (US$ actuales),2017,197.0783
 Emiratos Árabes Unidos,Gasto interno privado en salud per cápita (US$ a precios actuales),2017,780.0642
-"Egipto, República Árabe de",Gasto nacional en salud del gobierno general per cápita (US$ a precios actuales),2017,33.4462
-"Egipto, República Árabe de",Gasto de bolsillo per cápita (US$ actuales),2017,60.9036
-"Egipto, República Árabe de",Gasto interno privado en salud per cápita (US$ a precios actuales),2017,74.202
+Egipto,Gasto nacional en salud del gobierno general per cápita (US$ a precios actuales),2017,33.4462
+Egipto,Gasto de bolsillo per cápita (US$ actuales),2017,60.9036
+Egipto,Gasto interno privado en salud per cápita (US$ a precios actuales),2017,74.202
 Cuba,Gasto nacional en salud del gobierno general per cápita (US$ a precios actuales),2017,874.4564
 Cuba,Gasto de bolsillo per cápita (US$ actuales),2017,104.8833
 Cuba,Gasto interno privado en salud per cápita (US$ a precios actuales),2017,104.8833
@@ -4028,9 +4028,9 @@ Fiji,Gasto interno privado en salud per cápita (US$ a precios actuales),2017,58
 Finlandia,Gasto nacional en salud del gobierno general per cápita (US$ a precios actuales),2017,3304.571
 Finlandia,Gasto de bolsillo per cápita (US$ actuales),2017,806.7782
 Finlandia,Gasto interno privado en salud per cápita (US$ a precios actuales),2017,931.2615
-Federación de Rusia,Gasto nacional en salud del gobierno general per cápita (US$ a precios actuales),2017,331.104
-Federación de Rusia,Gasto de bolsillo per cápita (US$ actuales),2017,234.8523
-Federación de Rusia,Gasto interno privado en salud per cápita (US$ a precios actuales),2017,248.8772
+Rusia,Gasto nacional en salud del gobierno general per cápita (US$ a precios actuales),2017,331.104
+Rusia,Gasto de bolsillo per cápita (US$ actuales),2017,234.8523
+Rusia,Gasto interno privado en salud per cápita (US$ a precios actuales),2017,248.8772
 Grecia,Gasto nacional en salud del gobierno general per cápita (US$ a precios actuales),2017,787.5415
 Grecia,Gasto de bolsillo per cápita (US$ actuales),2017,528.3523
 Grecia,Gasto interno privado en salud per cápita (US$ a precios actuales),2017,719.5475
@@ -4139,9 +4139,9 @@ Ecuador,Gasto interno privado en salud per cápita (US$ a precios actuales),2018
 Emiratos Árabes Unidos,Gasto nacional en salud del gobierno general per cápita (US$ a precios actuales),2018,987.6923
 Emiratos Árabes Unidos,Gasto de bolsillo per cápita (US$ actuales),2018,243.1219
 Emiratos Árabes Unidos,Gasto interno privado en salud per cápita (US$ a precios actuales),2018,927.2395
-"Egipto, República Árabe de",Gasto nacional en salud del gobierno general per cápita (US$ a precios actuales),2018,34.2227
-"Egipto, República Árabe de",Gasto de bolsillo per cápita (US$ actuales),2018,75.2723
-"Egipto, República Árabe de",Gasto interno privado en salud per cápita (US$ a precios actuales),2018,85.21
+Egipto,Gasto nacional en salud del gobierno general per cápita (US$ a precios actuales),2018,34.2227
+Egipto,Gasto de bolsillo per cápita (US$ actuales),2018,75.2723
+Egipto,Gasto interno privado en salud per cápita (US$ a precios actuales),2018,85.21
 Cuba,Gasto nacional en salud del gobierno general per cápita (US$ a precios actuales),2018,863.5435
 Cuba,Gasto de bolsillo per cápita (US$ actuales),2018,108.7371
 Cuba,Gasto interno privado en salud per cápita (US$ a precios actuales),2018,108.7371
@@ -4160,9 +4160,9 @@ Fiji,Gasto interno privado en salud per cápita (US$ a precios actuales),2018,62
 Finlandia,Gasto nacional en salud del gobierno general per cápita (US$ a precios actuales),2018,3551.9492
 Finlandia,Gasto de bolsillo per cápita (US$ actuales),2018,833.3438
 Finlandia,Gasto interno privado en salud per cápita (US$ a precios actuales),2018,969.3732
-Federación de Rusia,Gasto nacional en salud del gobierno general per cápita (US$ a precios actuales),2018,362.2992
-Federación de Rusia,Gasto de bolsillo per cápita (US$ actuales),2018,233.4525
-Federación de Rusia,Gasto interno privado en salud per cápita (US$ a precios actuales),2018,247.0517
+Rusia,Gasto nacional en salud del gobierno general per cápita (US$ a precios actuales),2018,362.2992
+Rusia,Gasto de bolsillo per cápita (US$ actuales),2018,233.4525
+Rusia,Gasto interno privado en salud per cápita (US$ a precios actuales),2018,247.0517
 Grecia,Gasto nacional en salud del gobierno general per cápita (US$ a precios actuales),2018,836.2425
 Grecia,Gasto de bolsillo per cápita (US$ actuales),2018,578.3916
 Grecia,Gasto interno privado en salud per cápita (US$ a precios actuales),2018,764.6993
@@ -4271,9 +4271,9 @@ Ecuador,Gasto interno privado en salud per cápita (US$ a precios actuales),2019
 Emiratos Árabes Unidos,Gasto nacional en salud del gobierno general per cápita (US$ a precios actuales),2019,1015.1231
 Emiratos Árabes Unidos,Gasto de bolsillo per cápita (US$ actuales),2019,244.3721
 Emiratos Árabes Unidos,Gasto interno privado en salud per cápita (US$ a precios actuales),2019,932.0077
-"Egipto, República Árabe de",Gasto nacional en salud del gobierno general per cápita (US$ a precios actuales),2019,40.9831
-"Egipto, República Árabe de",Gasto de bolsillo per cápita (US$ actuales),2019,90.8283
-"Egipto, República Árabe de",Gasto interno privado en salud per cápita (US$ a precios actuales),2019,102.8198
+Egipto,Gasto nacional en salud del gobierno general per cápita (US$ a precios actuales),2019,40.9831
+Egipto,Gasto de bolsillo per cápita (US$ actuales),2019,90.8283
+Egipto,Gasto interno privado en salud per cápita (US$ a precios actuales),2019,102.8198
 Cuba,Gasto nacional en salud del gobierno general per cápita (US$ a precios actuales),2019,901.8383
 Cuba,Gasto de bolsillo per cápita (US$ actuales),2019,109.9231
 Cuba,Gasto interno privado en salud per cápita (US$ a precios actuales),2019,109.9231
@@ -4292,9 +4292,9 @@ Fiji,Gasto interno privado en salud per cápita (US$ a precios actuales),2019,62
 Finlandia,Gasto nacional en salud del gobierno general per cápita (US$ a precios actuales),2019,3576.6797
 Finlandia,Gasto de bolsillo per cápita (US$ actuales),2019,777.1292
 Finlandia,Gasto interno privado en salud per cápita (US$ a precios actuales),2019,883.1456
-Federación de Rusia,Gasto nacional en salud del gobierno general per cápita (US$ a precios actuales),2019,399.9335
-Federación de Rusia,Gasto de bolsillo per cápita (US$ actuales),2019,239.1923
-Federación de Rusia,Gasto interno privado en salud per cápita (US$ a precios actuales),2019,254.0664
+Rusia,Gasto nacional en salud del gobierno general per cápita (US$ a precios actuales),2019,399.9335
+Rusia,Gasto de bolsillo per cápita (US$ actuales),2019,239.1923
+Rusia,Gasto interno privado en salud per cápita (US$ a precios actuales),2019,254.0664
 Grecia,Gasto nacional en salud del gobierno general per cápita (US$ a precios actuales),2019,765.0709
 Grecia,Gasto de bolsillo per cápita (US$ actuales),2019,527.8641
 Grecia,Gasto interno privado en salud per cápita (US$ a precios actuales),2019,801.8894
@@ -4403,9 +4403,9 @@ Ecuador,Gasto interno privado en salud per cápita (US$ a precios actuales),2020
 Emiratos Árabes Unidos,Gasto nacional en salud del gobierno general per cápita (US$ a precios actuales),2020,1336.7015
 Emiratos Árabes Unidos,Gasto de bolsillo per cápita (US$ actuales),2020,245.7142
 Emiratos Árabes Unidos,Gasto interno privado en salud per cápita (US$ a precios actuales),2020,855.1121
-"Egipto, República Árabe de",Gasto nacional en salud del gobierno general per cápita (US$ a precios actuales),2020,48.1789
-"Egipto, República Árabe de",Gasto de bolsillo per cápita (US$ actuales),2020,89.508
-"Egipto, República Árabe de",Gasto interno privado en salud per cápita (US$ a precios actuales),2020,101.0357
+Egipto,Gasto nacional en salud del gobierno general per cápita (US$ a precios actuales),2020,48.1789
+Egipto,Gasto de bolsillo per cápita (US$ actuales),2020,89.508
+Egipto,Gasto interno privado en salud per cápita (US$ a precios actuales),2020,101.0357
 Cuba,Gasto nacional en salud del gobierno general per cápita (US$ a precios actuales),2020,1079.6912
 Cuba,Gasto de bolsillo per cápita (US$ actuales),2020,105.8053
 Cuba,Gasto interno privado en salud per cápita (US$ a precios actuales),2020,105.8053
@@ -4424,9 +4424,9 @@ Fiji,Gasto interno privado en salud per cápita (US$ a precios actuales),2020,52
 Finlandia,Gasto nacional en salud del gobierno general per cápita (US$ a precios actuales),2020,3844.3448
 Finlandia,Gasto de bolsillo per cápita (US$ actuales),2020,775.5518
 Finlandia,Gasto interno privado en salud per cápita (US$ a precios actuales),2020,881.5053
-Federación de Rusia,Gasto nacional en salud del gobierno general per cápita (US$ a precios actuales),2020,545.9502
-Federación de Rusia,Gasto de bolsillo per cápita (US$ actuales),2020,214.8404
-Federación de Rusia,Gasto interno privado en salud per cápita (US$ a precios actuales),2020,227.928
+Rusia,Gasto nacional en salud del gobierno general per cápita (US$ a precios actuales),2020,545.9502
+Rusia,Gasto de bolsillo per cápita (US$ actuales),2020,214.8404
+Rusia,Gasto interno privado en salud per cápita (US$ a precios actuales),2020,227.928
 Grecia,Gasto nacional en salud del gobierno general per cápita (US$ a precios actuales),2020,904.0972
 Grecia,Gasto de bolsillo per cápita (US$ actuales),2020,560.1334
 Grecia,Gasto interno privado en salud per cápita (US$ a precios actuales),2020,768.4881
@@ -4535,9 +4535,9 @@ Ecuador,Gasto interno privado en salud per cápita (US$ a precios actuales),2021
 Emiratos Árabes Unidos,Gasto nacional en salud del gobierno general per cápita (US$ a precios actuales),2021,856.5632190476191
 Emiratos Árabes Unidos,Gasto de bolsillo per cápita (US$ actuales),2021,249.96917142857143
 Emiratos Árabes Unidos,Gasto interno privado en salud per cápita (US$ a precios actuales),2021,477.64606190476195
-"Egipto, República Árabe de",Gasto nacional en salud del gobierno general per cápita (US$ a precios actuales),2021,33.51206666666667
-"Egipto, República Árabe de",Gasto de bolsillo per cápita (US$ actuales),2021,63.974171428571424
-"Egipto, República Árabe de",Gasto interno privado en salud per cápita (US$ a precios actuales),2021,71.39645714285714
+Egipto,Gasto nacional en salud del gobierno general per cápita (US$ a precios actuales),2021,33.51206666666667
+Egipto,Gasto de bolsillo per cápita (US$ actuales),2021,63.974171428571424
+Egipto,Gasto interno privado en salud per cápita (US$ a precios actuales),2021,71.39645714285714
 Cuba,Gasto nacional en salud del gobierno general per cápita (US$ a precios actuales),2021,559.2024
 Cuba,Gasto de bolsillo per cápita (US$ actuales),2021,70.23637142857143
 Cuba,Gasto interno privado en salud per cápita (US$ a precios actuales),2021,70.23637142857143
@@ -4556,9 +4556,9 @@ Fiji,Gasto interno privado en salud per cápita (US$ a precios actuales),2021,39
 Finlandia,Gasto nacional en salud del gobierno general per cápita (US$ a precios actuales),2021,3008.041695238095
 Finlandia,Gasto de bolsillo per cápita (US$ actuales),2021,710.4102714285715
 Finlandia,Gasto interno privado en salud per cápita (US$ a precios actuales),2021,810.8462380952382
-Federación de Rusia,Gasto nacional en salud del gobierno general per cápita (US$ a precios actuales),2021,296.0573904761905
-Federación de Rusia,Gasto de bolsillo per cápita (US$ actuales),2021,165.9586095238095
-Federación de Rusia,Gasto interno privado en salud per cápita (US$ a precios actuales),2021,183.81980476190478
+Rusia,Gasto nacional en salud del gobierno general per cápita (US$ a precios actuales),2021,296.0573904761905
+Rusia,Gasto de bolsillo per cápita (US$ actuales),2021,165.9586095238095
+Rusia,Gasto interno privado en salud per cápita (US$ a precios actuales),2021,183.81980476190478
 Grecia,Gasto nacional en salud del gobierno general per cápita (US$ a precios actuales),2021,1104.0007095238095
 Grecia,Gasto de bolsillo per cápita (US$ actuales),2021,617.5511
 Grecia,Gasto interno privado en salud per cápita (US$ a precios actuales),2021,711.5203285714285
@@ -4667,9 +4667,9 @@ Ecuador,Gasto interno privado en salud per cápita (US$ a precios actuales),2022
 Emiratos Árabes Unidos,Gasto nacional en salud del gobierno general per cápita (US$ a precios actuales),2022,856.5632190476191
 Emiratos Árabes Unidos,Gasto de bolsillo per cápita (US$ actuales),2022,249.96917142857143
 Emiratos Árabes Unidos,Gasto interno privado en salud per cápita (US$ a precios actuales),2022,477.64606190476195
-"Egipto, República Árabe de",Gasto nacional en salud del gobierno general per cápita (US$ a precios actuales),2022,33.51206666666667
-"Egipto, República Árabe de",Gasto de bolsillo per cápita (US$ actuales),2022,63.974171428571424
-"Egipto, República Árabe de",Gasto interno privado en salud per cápita (US$ a precios actuales),2022,71.39645714285714
+Egipto,Gasto nacional en salud del gobierno general per cápita (US$ a precios actuales),2022,33.51206666666667
+Egipto,Gasto de bolsillo per cápita (US$ actuales),2022,63.974171428571424
+Egipto,Gasto interno privado en salud per cápita (US$ a precios actuales),2022,71.39645714285714
 Cuba,Gasto nacional en salud del gobierno general per cápita (US$ a precios actuales),2022,559.2024
 Cuba,Gasto de bolsillo per cápita (US$ actuales),2022,70.23637142857143
 Cuba,Gasto interno privado en salud per cápita (US$ a precios actuales),2022,70.23637142857143
@@ -4688,9 +4688,9 @@ Fiji,Gasto interno privado en salud per cápita (US$ a precios actuales),2022,39
 Finlandia,Gasto nacional en salud del gobierno general per cápita (US$ a precios actuales),2022,3008.041695238095
 Finlandia,Gasto de bolsillo per cápita (US$ actuales),2022,710.4102714285715
 Finlandia,Gasto interno privado en salud per cápita (US$ a precios actuales),2022,810.8462380952382
-Federación de Rusia,Gasto nacional en salud del gobierno general per cápita (US$ a precios actuales),2022,296.0573904761905
-Federación de Rusia,Gasto de bolsillo per cápita (US$ actuales),2022,165.9586095238095
-Federación de Rusia,Gasto interno privado en salud per cápita (US$ a precios actuales),2022,183.81980476190478
+Rusia,Gasto nacional en salud del gobierno general per cápita (US$ a precios actuales),2022,296.0573904761905
+Rusia,Gasto de bolsillo per cápita (US$ actuales),2022,165.9586095238095
+Rusia,Gasto interno privado en salud per cápita (US$ a precios actuales),2022,183.81980476190478
 Grecia,Gasto nacional en salud del gobierno general per cápita (US$ a precios actuales),2022,1104.0007095238095
 Grecia,Gasto de bolsillo per cápita (US$ actuales),2022,617.5511
 Grecia,Gasto interno privado en salud per cápita (US$ a precios actuales),2022,711.5203285714285
