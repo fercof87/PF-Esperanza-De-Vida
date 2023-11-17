@@ -134,6 +134,5 @@ mostrar_estadisticas = BashOperator(
 verificar_archivos >> [cargar_continente, cargar_categorias, extraer_datos_BM, cargar_indicador_rentabilidad]
 cargar_continente >> extraer_paises >> cargar_paises
 cargar_categorias >> cargar_indicadores
-extraer_datos_BM >> transformar_columnas_a_registros_BM >> transformar_imputar_BM
-[transformar_imputar_BM, cargar_indicadores, cargar_paises, cargar_indicador_rentabilidad] >> respaldar_archivos
-respaldar_archivos >> mostrar_estadisticas
+extraer_datos_BM >> transformar_columnas_a_registros_BM
+[transformar_columnas_a_registros_BM, cargar_indicadores, cargar_paises, cargar_indicador_rentabilidad] >> transformar_imputar_BM >> respaldar_archivos >> mostrar_estadisticas
