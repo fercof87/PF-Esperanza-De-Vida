@@ -1,0 +1,6 @@
+pandas
+pandas-gbq
+wbgapi
+google-cloud-bigquery
+google-cloud-storage
+pyarrow

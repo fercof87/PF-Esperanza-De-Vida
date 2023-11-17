@@ -2,9 +2,12 @@
 #                                                            CONSTANTES                                                                #
 #--------------------------------------------------------------------------------------------------------------------------------------#
 
-#Diccionario de Categoría de Rentabilidades
-PROFIT_DICT   = {
-                     -1: 'No Imputado',
-                      0: 'No Rentable',
-                      1: 'Rentable'
-                }
+#Diccionario de Continentes y Traducciones 
+CONTINENTS_DICT = {
+    'América del Norte': {'ContinenteEng': 'North America'},
+    'Sudamérica': {'ContinenteEng': 'South America'},
+    'Europa': {'ContinenteEng': 'Europe'},
+    'Asia': {'ContinenteEng': 'Asia'},
+    'Oceanía': {'ContinenteEng': 'Oceania'},
+    'África': {'ContinenteEng': 'Africa'}
+}  

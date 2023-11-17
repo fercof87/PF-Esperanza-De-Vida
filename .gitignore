@@ -1,5 +1,23 @@
-Data-Engineering/0-Rename-Files/comandos.txt
-Data-Engineering/1-Extract-Countries/comandos.txt
-Data-Engineering/2-Extract-BM/comandos.txt
-Data-Engineering/3-Indicators-To-Row/comandos.txt
-Data-Engineering/4-Profitability-Category/comandos.txt
+#Rama 0 - Rama Inicial
+Data-Engineering/0A-Verificar-Archivos/comandos.txt
+#Rama 1 - Paises y Continentes
+Data-Engineering/1A-Cargar-Continente/comandos.txt
+Data-Engineering/1B-Extraer-Paises/comandos.txt
+Data-Engineering/1C-Cargar-Paises/comandos.txt
+#Rama 2 - Categorias e Indicadores
+Data-Engineering/2A-Cargar-Categorias/comandos.txt
+Data-Engineering/2B-Cargar-Indicadores/comandos.txt
+#Rama 3 - Extraccion de BM
+Data-Engineering/3A-Extraer-BM/comandos.txt
+Data-Engineering/3B-Columnas-a-Registros-BM/comandos.txt
+Data-Engineering/3C-Transformar-Imputar-BM/comandos.txt
+#Rama 4 - Categorias de Rentabilidad - Modelo ML
+Data-Engineering/4A-Cargar-Indicador-Rentabilidad/comandos.txt
+#Rama 5 - Respaldo de Archivos del Proceso
+Data-Engineering/5A-Respaldar-Archivos/comandos.txt
+#Rama 6 - Estadisticas
+Data-Engineering/6A-Mostrar-Estadisticas/comandos.txt
+#Archivos de Prueba
+data api/data_api_opt2.ipynb
+data api/prueba2.ipynb
+data api/prueba.ipynb
