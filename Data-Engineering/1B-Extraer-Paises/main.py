@@ -213,6 +213,30 @@ def obtener_continente_por_pais(pais):
 
 
 def extraer_paises(request):
+    """
+    Cloud Function que extrae datos de países de la API del Banco Mundial,
+    realiza transformaciones y carga los resultados en BigQuery y Google Cloud Storage.
+
+    Args:
+        request (flask.Request): La solicitud HTTP que activa la función. Esta función no utiliza el parámetro request.
+
+    Returns:
+        str: Un mensaje indicando el resultado de la ejecución de la función.
+
+    Raises:
+        Exception: Si se produce algún error durante la ejecución de la función.
+
+    Note:
+        - La función asume que existe un archivo CSV llamado 'Parametros_Paises.csv' en el bucket 'pf-henry-esperanza-parametros'.
+        - La función utiliza la biblioteca wbgapi para obtener datos de la API del Banco Mundial.
+        - Se realiza la transformación de los datos, se agrega la información del continente y se carga en BigQuery.
+        - El archivo resultante ('Paises.csv') se guarda en el bucket 'pf-henry-esperanza-archivos-intermedios' en Google Cloud Storage.
+        - Se registra una auditoría después de cargar los países en BigQuery.
+
+    Example:
+        response = extraer_paises(None)
+        print(response)
+    """
     try:
         # Configurar el cliente de BigQuery
         bq_client = bigquery.Client()

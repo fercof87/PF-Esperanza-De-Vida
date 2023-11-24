@@ -536,6 +536,11 @@ def cargar_indicadores(request):
 
     bucket = storage_client.get_bucket(bucket_name)
     indicadores_blob = bucket.blob(indicadores_blob_name)
+
+    # Verificar si el archivo existe en el bucket
+    if not indicadores_blob.exists():
+        raise Exception(f'Error: El archivo {indicadores_blob_name} no se encuentra en el bucket {bucket_name}.')
+
     indicadores_content = indicadores_blob.download_as_text()
     df_indicadores = pd.read_csv(io.StringIO(indicadores_content))
 

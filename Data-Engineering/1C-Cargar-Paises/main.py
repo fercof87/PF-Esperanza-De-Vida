@@ -107,6 +107,20 @@ def registrar_auditoria_cargar_continente(bq_client, registros_leidos, registros
 
 
 def obtener_maximo_id_pais(bq_client, conjunto_datos, tabla):
+    """
+    Obtiene el máximo valor de 'IdPais' en la tabla especificada en BigQuery.
+
+    Args:
+        bq_client (google.cloud.bigquery.client.Client): Cliente de BigQuery.
+        conjunto_datos (str): Nombre del conjunto de datos en BigQuery.
+        tabla (str): Nombre de la tabla en BigQuery.
+
+    Returns:
+        int: El máximo valor de 'IdPais' encontrado en la tabla. Si no hay resultados, devuelve 0.
+
+    Raises:
+        Exception: Si ocurre algún error durante la ejecución de la consulta.
+    """
     try:
         query = f'''
             SELECT MAX(IdPais) as max_id
@@ -125,6 +139,22 @@ def obtener_maximo_id_pais(bq_client, conjunto_datos, tabla):
         raise Exception(f"Error al obtener el máximo IdPais: {str(e)}")
 
 def obtener_id_indicador_rentabilidad(bq_client, conjunto_datos, tabla):
+    """
+    Obtiene el IdIndicadorRentabilidad asociado a la descripción 'No Imputado'
+    desde la tabla especificada en BigQuery.
+
+    Args:
+        bq_client (google.cloud.bigquery.client.Client): Cliente de BigQuery.
+        conjunto_datos (str): Nombre del conjunto de datos en BigQuery.
+        tabla (str): Nombre de la tabla en BigQuery.
+
+    Returns:
+        int or None: El IdIndicadorRentabilidad asociado a 'No Imputado' si se encuentra,
+        o None si no se encuentra ningún registro.
+
+    Raises:
+        Exception: Si ocurre algún error durante la ejecución de la consulta.
+    """
     try:
         query = f'''
             SELECT IdIndicadorRentabilidad
@@ -142,6 +172,23 @@ def obtener_id_indicador_rentabilidad(bq_client, conjunto_datos, tabla):
         raise Exception(f"Error al obtener el IdIndicadorRentabilidad: {str(e)}")
 
 def cargar_paises(request):
+    """
+    Cloud Function que carga datos de países desde un archivo CSV en Google Cloud Storage a BigQuery.
+
+    Args:
+        request (flask.Request): La solicitud HTTP que activa la función. Esta función no utiliza el parámetro request.
+
+    Returns:
+        str: Un mensaje indicando el resultado de la ejecución de la función.
+
+    Raises:
+        Exception: Si se produce algún error durante la ejecución de la función.
+
+    Note:
+        - La función asume la existencia de un archivo CSV llamado 'Paises.csv' en el bucket 'pf-henry-esperanza-archivos-intermedios'.
+        - Se verifica si la tabla en BigQuery ya contiene registros para decidir si realizar una inserción o una actualización.
+        - Se registra una auditoría después de cargar los países en BigQuery.
+    """
     try:
         bq_client = bigquery.Client()
         conjunto_datos = 'Modelo_Esperanza_De_Vida'
@@ -280,7 +327,7 @@ def cargar_paises(request):
         print("*")
         print(f'Total de registros de Auditoria: {registros_auditoria}.')
         print("*")
-        return ('Carga completada de Countries CSV en BigQuery. ')
+        return ('Carga completada de Paises.csv en BigQuery. ')
 
     except Exception as e:
         print(f"Error al cargar en BigQuery: {str(e)}")
