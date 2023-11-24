@@ -124,6 +124,11 @@ def transformar_columnas_a_registros_BM(request):
     storage_client = storage.Client()
     bucket = storage_client.bucket(bucket_name)
     blob = bucket.blob(blob_name)
+
+    # Verificar si el archivo existe en el bucket
+    if not blob.exists():
+        raise Exception(f'Error: El archivo {blob_name} no se encuentra en el bucket {bucket_name}.')
+    
     data = blob.download_as_text()
 
     # Crear el DataFrame
