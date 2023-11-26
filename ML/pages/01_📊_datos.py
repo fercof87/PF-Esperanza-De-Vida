@@ -31,13 +31,5 @@ df_pivot_años.fillna(0, inplace=True)
 df_pivot_años_group = df_pivot_años.groupby("Pais").mean().drop(columns=['Año'])
 df_pivot_años_group.reset_index(inplace=True)
 
+
 #-----------------------------------------------------------------------------------
-scaler = StandardScaler()
-
-columnas = df_pivot_años_group.columns[1:]
-
-df_pivot_años_group_escaler = scaler.fit_transform(df_pivot_años_group[columnas])
-
-df_pivot_años_group_escaler = pd.DataFrame(df_pivot_años_group_escaler, columns=df_pivot_años_group.columns[1:])
-
-st.dataframe(df_pivot_años_group_escaler)
