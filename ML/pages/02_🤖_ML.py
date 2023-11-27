@@ -43,21 +43,21 @@ continente_seleccionado = st.selectbox("Selecciona un Continente", opciones_cont
 
 # Verificar si se ha seleccionado un continente
 if continente_seleccionado != 'Selecciona un Continente':
-    # Filtrar por continente y seleccionar la columna 'Nombre_Pais'
-    df_filtrado = df_cluster_1[df_cluster_1['Continente'] == continente_seleccionado]['Nombre_Pais'].tolist()
+    #Filtrar por continente y seleccionar la columna 'Nombre_Pais'
+    df_filtrado = df_cluster_1[df_cluster_1['Continente'] == continente_seleccionado]['Pais'].tolist()
 
     # Mostrar los países del continente
     texto_paises = '<br>'.join(df_filtrado)
     st.markdown(f"**<span style='font-size:22px'>{texto_paises}</span>**", unsafe_allow_html=True)
 
 # Segundo filtro por país
-opciones_paises = ['Selecciona un País'] + list(df_group_cluster['Nombre_Pais'].unique())
+opciones_paises = ['Selecciona un País'] + list(df_group_cluster['Pais'].unique())
 pais_seleccionado = st.selectbox("Selecciona un País", opciones_paises)
 
 # Verificar si se ha seleccionado un país
 if pais_seleccionado != 'Selecciona un País':
     # Verificar la viabilidad del país seleccionado
-    if pais_seleccionado in df_cluster_1['Nombre_Pais'].values:
+    if pais_seleccionado in df_cluster_1['Pais'].values:
         st.markdown(f"<span style='font-size:24px'>El país **{pais_seleccionado}** es viable.</span>", unsafe_allow_html=True)
     else:
         st.markdown(f"<span style='font-size:18px'>El país **{pais_seleccionado}** No es viable.</span>", unsafe_allow_html=True)

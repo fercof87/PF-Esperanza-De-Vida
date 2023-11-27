@@ -10,14 +10,21 @@ st.sidebar.image('Fixing Data.jpg', caption='Proyecto Final')
 st.title('data')
 #Carga de datos
 df = pd.read_csv('../EDA/Data_preparada/nueocv.csv')
+st.dataframe(df)
+
+st.title('Transformamos el DF')
 #transformación del DF
 df_pivot = pd.pivot_table(data=df, index=['Pais', "Año"], columns='Indicador_name', values='Valor')
 df_pivot.reset_index(inplace=True)
+st.dataframe(df_pivot)
 
+st.title('Feature Engeneering')
+st.write('Creación de dos nuevas columnas **["ratio_population ages 65 and above"]** y **["ratio_urban population"]**')
 #creacion de dos nuevas columnas
 
 df_pivot["ratio_population ages 65 and above"] = df_pivot["Population ages 65 and above, total"]/df_pivot["Population, total"]
 df_pivot["ratio_urban population"] = df_pivot["Urban population"]/df_pivot["Population, total"]
+
 #seleccion de columnas
 columnas_seleccionadas = ["Pais","Año","GDP per capita (current US$)","Inflation, GDP deflator (annual %)", "Inflation, consumer prices (annual %)","Life expectancy at birth, total (years)","Population growth (annual %)","ratio_population ages 65 and above","ratio_urban population", "Urban population growth (annual %)"]
 df_pivot = df_pivot[columnas_seleccionadas]
