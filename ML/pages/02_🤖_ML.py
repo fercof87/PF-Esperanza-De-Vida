@@ -32,7 +32,7 @@ df_data = pd.read_csv('data.csv')
 df_group_cluster = df_data.assign(Cluster=cluster_labels)
 
 #Después de analizar los clusters, se observó que el cluster más óptimo es el número 1.
-df_cluster_1 = df_group_cluster[df_group_cluster["Cluster"]==1]
+df_cluster_1 = df_group_cluster[df_group_cluster["Cluster"]==2]
 
 
 #-----------------------------------------------------------------------------
