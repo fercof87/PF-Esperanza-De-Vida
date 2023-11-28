@@ -7,6 +7,8 @@ import matplotlib.pyplot as plt
 from google.oauth2 import service_account
 from google.cloud import storage
 import io
+from sklearn.metrics import silhouette_score, silhouette_samples
+import plotly.express as px
 
 
 #logo
@@ -121,3 +123,146 @@ st.subheader("Gráfico de Caja por Clúster")
 fig, ax = plt.subplots(figsize=(10, 6))
 sns.boxplot(data=df_pivot_años_group_cluster, y='Life expectancy at birth, total (years)', x='Cluster', ax=ax)
 st.pyplot(fig)
+
+
+#------------------------------------------------------------------------------
+
+# Configurar la aplicación Streamlit
+st.title("Visualización de Datos con Streamlit")
+
+# Crear el histograma con seaborn
+fig, ax = plt.subplots(figsize=(10, 6))
+sns.histplot(data=df_pivot_años_group_cluster, x="Life expectancy at birth, total (years)", hue="Cluster", ax=ax)
+ax.set_title("Histograma de Expectativa de Vida por Cluster")
+ax.set_xlabel("Expectativa de Vida al Nacer (años)")
+ax.set_ylabel("Frecuencia")
+
+# Mostrar el histograma en Streamlit
+st.pyplot(fig)
+
+#-----------------------------------------------------------------------------------
+
+# Configurar la aplicación Streamlit
+st.title("Visualización de Datos con Streamlit")
+
+# Crear el gráfico de caja con seaborn
+fig, ax = plt.subplots(figsize=(10, 6))
+sns.boxplot(data=df_pivot_años_group_cluster, y='GDP per capita (current US$)', x='Cluster')
+ax.set_title("Gráfico de Caja de GDP per capita por Cluster")
+ax.set_xlabel("Cluster")
+ax.set_ylabel("GDP per capita (current US$)")
+
+# Mostrar el gráfico de caja en Streamlit
+st.pyplot(fig)
+
+#------------------------------------------------------------------------------------
+
+
+# Configurar la aplicación Streamlit
+st.title("Visualización de Datos con Streamlit")
+
+# Crear el histograma con seaborn
+fig, ax = plt.subplots(figsize=(10, 6))
+sns.histplot(data=df_pivot_años_group_cluster, x="GDP per capita (current US$)", hue="Cluster", ax=ax)
+ax.set_title("Histograma de GDP per capita por Cluster")
+ax.set_xlabel("GDP per capita (current US$)")
+ax.set_ylabel("Frecuencia")
+
+# Mostrar el histograma en Streamlit
+st.pyplot(fig)
+
+#------------------------------------------------------------------------------------
+# Configurar la aplicación Streamlit
+st.title("Visualización de Datos con Streamlit")
+
+# Crear el gráfico de caja con seaborn
+fig, ax = plt.subplots(figsize=(10, 6))
+sns.boxplot(data=df_pivot_años_group_cluster, y='ratio_population ages 65 and above', x='Cluster')
+ax.set_title("Gráfico de Caja de la Proporción de Población de 65 años y más por Cluster")
+ax.set_xlabel("Cluster")
+ax.set_ylabel("Proporción de Población de 65 años y más")
+
+# Mostrar el gráfico de caja en Streamlit
+st.pyplot(fig)
+
+#------------------------------------------------------------------------------------
+
+# Configurar la aplicación Streamlit
+st.title("Visualización de Datos con Streamlit")
+
+# Crear el histograma con seaborn
+fig, ax = plt.subplots(figsize=(10, 6))
+sns.histplot(data=df_pivot_años_group_cluster, x="ratio_population ages 65 and above", hue="Cluster", ax=ax)
+ax.set_title("Histograma de la Proporción de Población de 65 años y más por Cluster")
+ax.set_xlabel("Proporción de Población de 65 años y más")
+ax.set_ylabel("Frecuencia")
+
+# Mostrar el histograma en Streamlit
+st.pyplot(fig)
+
+#------------------------------------------------------------------------------------
+# Configurar la aplicación Streamlit
+st.title("Visualización de Datos con Streamlit")
+
+# Crear el gráfico de dispersión con seaborn
+fig, ax = plt.subplots(figsize=(10, 6))
+sns.scatterplot(data=df_pivot_años_group_cluster, x="Life expectancy at birth, total (years)", y="GDP per capita (current US$)", hue="Cluster", ax=ax)
+ax.set_title("Gráfico de Dispersión de Expectativa de Vida y GDP per capita por Cluster")
+ax.set_xlabel("Expectativa de Vida al Nacer (años)")
+ax.set_ylabel("GDP per capita (current US$)")
+
+# Mostrar el gráfico de dispersión en Streamlit
+st.pyplot(fig)
+
+#--------------------------------------------------------------------------------------
+
+cluster_2 = df_pivot_años_group_cluster[df_pivot_años_group_cluster["Cluster"]=="2"]
+st.dataframe(cluster_2 )
+
+#------------------------------------------------------------------------------------
+valores = []
+
+for i in range(2,11):
+
+  modelo_kmeans_numcluster = KMeans(n_clusters = i, random_state = 123)
+  modelo_kmeans_numcluster.fit(df_pivot_años_group_escaler)
+  valores.append(modelo_kmeans_numcluster.inertia_)
+
+
+# Configurar la aplicación Streamlit
+st.title("Visualización de Datos con Streamlit")
+
+# Crear el gráfico de líneas con seaborn
+fig, ax = plt.subplots(figsize=(10, 6))
+sns.lineplot(x=range(2, 11), y=valores, marker="o", ax=ax)
+ax.set_title("Gráfico de Líneas")
+ax.set_xlabel("Eje X")
+ax.set_ylabel("Eje Y")
+
+# Mostrar el gráfico de líneas en Streamlit
+st.pyplot(fig)
+#------------------------------------------------------------------------------------
+
+
+scores = []
+
+for i in range(2,11):
+  modelo_kmeans_numcluster = KMeans(n_clusters = i, random_state = 123)
+  modelo_kmeans_numcluster.fit(df_pivot_años_group_escaler)
+  etiquetas = modelo_kmeans_numcluster.labels_
+  coef_silhouette = silhouette_score(df_pivot_años_group_escaler, etiquetas)
+  scores.append(coef_silhouette)
+# Configurar la aplicación Streamlit
+st.title("Visualización de Datos con Streamlit")
+
+# Crear el gráfico de líneas con seaborn
+fig, ax = plt.subplots(figsize=(10, 6))
+sns.lineplot(x=range(2, 11), y=scores, marker="o", ax=ax)
+ax.set_title("Gráfico de Líneas")
+ax.set_xlabel("Eje X")
+ax.set_ylabel("Puntuaciones")
+
+# Mostrar el gráfico de líneas en Streamlit
+st.pyplot(fig)
+
+#------------------------------------------------------------------------------------
