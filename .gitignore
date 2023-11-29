@@ -22,7 +22,7 @@ Data-Engineering/5D-Imputar-Rentabilidad-ML/comandos.txt
 Data-Engineering/6A-Respaldar-Archivos/comandos.txt
 Data-Engineering/6B-Mostrar-Estadisticas/comandos.txt
 #Archivos de Prueba
-data api/prueba2.ipynb
-data api/prueba.ipynb
+Data-Api-BM/prueba.ipynb
+Data-Api-BM/prueba2.ipynb
 #Credenciales
 data api/credenciales.json
