@@ -1,3 +1,31 @@
+#Rama 0 - Rama Inicial
+Data-Engineering/0A-Verificar-Archivos/comandos.txt
+#Rama 1 - Paises y Continentes
+Data-Engineering/1A-Cargar-Continente/comandos.txt
+Data-Engineering/1B-Extraer-Paises/comandos.txt
+Data-Engineering/1C-Cargar-Paises/comandos.txt
+#Rama 2 - Categorias e Indicadores
+Data-Engineering/2A-Cargar-Categorias/comandos.txt
+Data-Engineering/2B-Cargar-Indicadores/comandos.txt
+#Rama 3 - Extraccion de BM
+Data-Engineering/3A-Extraer-BM/comandos.txt
+Data-Engineering/3B-Columnas-a-Registros-BM/comandos.txt
+#Rama 4 - Categorias de Rentabilidad - Modelo ML
+Data-Engineering/4A-Cargar-Indicador-Rentabilidad/comandos.txt
+#Rama 5 - Respaldo de Archivos del Proceso
+Data-Engineering/5A-Transformar-Imputar-BM/bkp.py
+Data-Engineering/5A-Transformar-Imputar-BM/comandos.txt
+Data-Engineering/5B-Generar-Data-ML/comandos.txt
+Data-Engineering/5C-Clusterizar-Paises-ML/comandos.txt
+Data-Engineering/5D-Imputar-Rentabilidad-ML/comandos.txt
+#Rama 6 - Estadisticas
+Data-Engineering/6A-Respaldar-Archivos/comandos.txt
+Data-Engineering/6B-Mostrar-Estadisticas/comandos.txt
+#Archivos de Prueba
+Data-Api-BM/prueba.ipynb
+Data-Api-BM/prueba2.ipynb
+#Credenciales
+data api/credenciales.json
 no van al proyecto/
 datasets/
 env_ml/
