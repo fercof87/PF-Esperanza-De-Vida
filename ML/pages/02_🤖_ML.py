@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 
 
 #logo
-st.sidebar.image('Fixing Data.jpg', caption='Proyecto Final')
+st.sidebar.image('../ML/img/Fixing_Data.jpg', caption='Proyecto Final')
 #---------------------------------------------------------------
 #titulo
 st.title('Estudio por región utilizando Machine Learning')
@@ -15,7 +15,7 @@ st.markdown('**Explorando la Viabilidad de Comercializar un Multivitaminico para
 
 #-------------------------------------------------------------------------
 # Modelo
-df_escaler = pd.read_csv('data_ML.csv')
+df_escaler = pd.read_csv('../ML/datasets_ML/data_ML.csv')
 num_clusters = 5
 
 kmeans = KMeans(n_clusters=num_clusters, random_state=42)
@@ -28,11 +28,11 @@ df_cluster = df_escaler.assign(Cluster=cluster_labels)
 
 #------------------------------------------------------------------------------
 # Union con la base original para clusterizar los países
-df_data = pd.read_csv('data.csv')
-
+df_data = pd.read_csv('../ML/datasets_ML/data.csv')
+df_data_año = pd.read_csv('../ML/datasets_ML/data_año_cluster.csv')
 df_group_cluster = df_data.assign(Cluster=cluster_labels)
 
-#Después de analizar los clusters, se observó que el cluster más óptimo es el número 1.
+#Después de analizar los clusters, se observó que el cluster más óptimo es el número 2.
 df_cluster_2 = df_group_cluster[df_group_cluster["Cluster"]==2]
 
 
@@ -60,6 +60,6 @@ if pais_seleccionado != 'Selecciona un País':
     # Verificar la viabilidad del país seleccionado
     if pais_seleccionado in df_cluster_2['Pais'].values:
         st.markdown(f"<span style='font-size:24px'>El país **{pais_seleccionado}** es viable.</span>", unsafe_allow_html=True)
-        st.dataframe(df_group_cluster[df_group_cluster['Pais']==pais_seleccionado])
+        st.dataframe(df_data_año[df_data_año['Pais']==pais_seleccionado])
     else:
         st.markdown(f"<span style='font-size:18px'>El país **{pais_seleccionado}** No es viable.</span>", unsafe_allow_html=True)

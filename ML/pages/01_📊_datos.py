@@ -12,14 +12,14 @@ import plotly.express as px
 
 
 #logo
-st.sidebar.image('Fixing Data.jpg', caption='Proyecto Final')
+st.sidebar.image('../ML/img/Fixing_Data.jpg', caption='Proyecto Final')
 #---------------------------------------------------------------
 #titulo
 st.title('Proceso para el Modelo')
 
 
 st.markdown("### Se hace la conexion a google storage para Obtener los datos")
-st.image("google storage.png")
+st.image("../ML/img/googlestorage.png")
 
 st.write('obtenemos los datos y los pasamos a un Dataframe')
 #-------------------------------------------------------------------
