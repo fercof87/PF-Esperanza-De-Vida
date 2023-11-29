@@ -228,6 +228,7 @@ def obtener_categorias_indicador(indicadores_por_categoria, cod_indicador):
 def obtener_categorias_indicadores(codigos_indicadores):
     """
     Obtiene las categorías de un conjunto de indicadores a partir de sus códigos.
+    Los datos son obtenidos de la API del Banco Mundial de Datos.
 
     :param codigos_indicadores: Lista de códigos de indicadores.
 
@@ -254,9 +255,10 @@ def obtener_categorias_indicadores(codigos_indicadores):
             print(f"Error al obtener categorías para topic_id {topic_id}: {str(e)}")
 
     # Crear la lista de diccionarios resultante
-    categorias_x_CodIndicador = [{'CodIndicador': cod_indicador, 'IdCategorias': list(id_categorias)}
+    #categorias_x_CodIndicador = [{'CodIndicador': cod_indicador, 'IdCategorias': list(id_categorias)}
+    #             for cod_indicador, id_categorias in categorias_por_indicador.items()]
+    categorias_x_CodIndicador = [{'CodIndicador': cod_indicador, 'NroTopicoBM': list(id_categorias)}
                  for cod_indicador, id_categorias in categorias_por_indicador.items()]
-
     return categorias_x_CodIndicador
 
 
@@ -353,8 +355,79 @@ def eliminar_categorias_en_lote(bq_client, conjunto_datos, tabla, categorias):
 
 
 
+def obtener_tabla_categoria(client, dataset_id, table_id):
+    """
+    Descarga la tabla Categoria desde BigQuery y retorna un DataFrame.
+
+    :param dataset_id: ID del conjunto de datos.
+    :param table_id: ID de la tabla.
+    :return: Un DataFrame con la tabla Categoria.
+    """
+    try:
+
+        # Consulta SQL para seleccionar las columnas específicas de la tabla Indicador
+        query = f"SELECT IdCategoria, Categoria, NroTopicoBM FROM `{dataset_id}.{table_id}`"
+
+        # Ejecutar la consulta
+        query_job = client.query(query)
+
+        # Obtener los resultados en un DataFrame de pandas
+        df = query_job.to_dataframe()
+
+        return df
+
+    except Exception as e:
+        # Manejar el error y posiblemente registrar información detallada
+        print(f"Error al obtener la tabla Indicador: {str(e)}")
+        return pd.DataFrame()  # Retorna un DataFrame vacío en caso de error        
+
+
+def generar_categorias_x_indicador(df_indicadores_bigquery, categorias_x_indicador):
+    """
+    Genera una lista de diccionarios que mapea los códigos de indicador a las categorías correspondientes.
+
+    :param df_indicadores_bigquery: DataFrame con la información de los indicadores.
+    :param categorias_x_indicador: Lista de diccionarios con los códigos de indicador y sus respectivos NroTopicoBM.
+    :return: lista con diccionarios con las claves CodIndicador e IdCategoria.
+    """
+
+    resultados_list = []
+
+    # Validar que las columnas requeridas estén presentes en df_indicadores_bigquery
+    required_columns = ['IdCategoria', 'Categoria', 'NroTopicoBM']
+    for col in required_columns:
+        if col not in df_indicadores_bigquery.columns:
+            raise ValueError(f'La columna {col} no está presente en df_indicadores_bigquery.')
+
+    # Iterar sobre cada entrada en categorias_x_indicador
+    for entry in categorias_x_indicador:
+        cod_indicador = entry.get('CodIndicador')
         
-            
+        if cod_indicador is None:
+            print('Advertencia: Se encontró una entrada en categorias_x_indicador sin CodIndicador.')
+            continue
+
+        nro_topicos = entry.get('NroTopicoBM', [])
+
+        # Filtrar df_indicadores_bigquery por CodIndicador y NroTopicoBM
+        filtro = (df_indicadores_bigquery['NroTopicoBM'].isin(nro_topicos))
+
+        # Verificar si se encontraron resultados
+        if df_indicadores_bigquery.loc[filtro].empty:
+            print(f'Advertencia: No se encontraron resultados para CodIndicador {cod_indicador} y NroTopicoBM {nro_topicos}.')
+            continue
+
+        # Obtener los IdCategorias correspondientes
+        id_categorias = df_indicadores_bigquery.loc[filtro, 'IdCategoria'].tolist()
+
+        # Crear diccionario para la entrada actual
+        resultado_entry = {'CodIndicador': cod_indicador, 'IdCategorias': id_categorias}
+
+        # Agregar a la lista de resultados
+        resultados_list.append(resultado_entry)
+
+    return resultados_list
+
 
 def procesar_lote(df_lote, bq_client, conjunto_datos, tabla_indicador, tabla_indicador_categoria, max_id):
     """
@@ -381,11 +454,15 @@ def procesar_lote(df_lote, bq_client, conjunto_datos, tabla_indicador, tabla_ind
     # Obtener la lista de códigos de indicadores en el lote
     codigos_indicadores_lote = df_lote['CodIndicador'].tolist()
 
+    #------------------------------------------------------------------------------------------------------------------------*
+    #                                 TRATAMIENTO TABLA Indicador                                                            *
+    #------------------------------------------------------------------------------------------------------------------------*
     for _, row in df_lote.iterrows():
         cod_indicador = row['CodIndicador']
+        #Buscamos la Descripción de cada CodIndicador
         ind_info = buscar_datos_indicador(cod_indicador)
 
-        # Verificar si el indicador ya existe en la tabla Indicador
+        # Verificar si el indicador ya existe en la tabla Indicador buscando por CodIndicador
         query = f'''
             SELECT IdIndicador, Descripcion
             FROM `{conjunto_datos}.{tabla_indicador}`
@@ -395,6 +472,8 @@ def procesar_lote(df_lote, bq_client, conjunto_datos, tabla_indicador, tabla_ind
         results = list(query_job.result())
 
         if results:
+            # Si el indicador existe en la tabla, verifico si cambio la Descripción retornada
+            # por el banco mundial, en ese caso realizo un UPDATE en la tabla para modificarla.
             existing_id, existing_description = results[0]['IdIndicador'], results[0]['Descripcion']
             if existing_description != ind_info:
                 print(f"Actualizando descripción para IdIndicador {existing_id}")
@@ -402,6 +481,8 @@ def procesar_lote(df_lote, bq_client, conjunto_datos, tabla_indicador, tabla_ind
                 if actualizar_descripcion_indicador(bq_client, conjunto_datos, tabla_indicador, existing_id, ind_info):
                     total_modificados_indicador += 1
         else:
+            # Si no encontramos el CodIndicador en la tabla, se realiza un insert del mismo para
+            # agregarlo al modelo de bigquery.
             # Incrementar el valor máximo para el próximo indicador
             max_id += 1
             # El indicador no existe, lo agregamos a la lista de nuevos indicadores
@@ -409,25 +490,16 @@ def procesar_lote(df_lote, bq_client, conjunto_datos, tabla_indicador, tabla_ind
             total_insertados_indicador += 1
 
     # Insertar todos los nuevos indicadores en una operación
+    # Paso la LISTA de indicadores a la función para insertar todo el lote de indicadores.
     if nuevos_indicadores:
         insertar_nuevo_indicador_en_lote(bq_client, conjunto_datos, tabla_indicador, nuevos_indicadores)
 
-    # Consultar los IdIndicador para los códigos de indicadores en el lote
+
+    # Genero una lista de indicadores para pasar a la query en formato str
     codigos_indicadores_str = ', '.join([f'"{cod}"' for cod in codigos_indicadores_lote])
-    id_indicadores_query = f'''
-        SELECT IdIndicador
-        FROM `{conjunto_datos}.{tabla_indicador}`
-        WHERE CodIndicador IN ({codigos_indicadores_str})
-        ORDER BY IdIndicador ASC
-    '''
-    
-    query_params = [bigquery.ArrayQueryParameter("codigos_indicadores_lote", "STRING", codigos_indicadores_lote)]
-    job_config = bigquery.QueryJobConfig(query_parameters=query_params)
-    query_job = bq_client.query(id_indicadores_query, job_config=job_config)
-    id_indicadores_result = [row['IdIndicador'] for row in query_job.result()]
 
-
-    # Obtener los IdIndicador para todos los CodIndicador en el lote
+    # Obtener los IdIndicador para todos los CodIndicador en el lote, en este punto 
+    # todos los indicadores del lote están presentes en la tabla Indicador
     id_indicadores_query = f'''
         SELECT IdIndicador, CodIndicador
         FROM `{conjunto_datos}.{tabla_indicador}`
@@ -440,8 +512,11 @@ def procesar_lote(df_lote, bq_client, conjunto_datos, tabla_indicador, tabla_ind
     query_job = bq_client.query(id_indicadores_query, job_config=job_config)
     id_indicadores_result = {row['CodIndicador']: row['IdIndicador'] for row in query_job.result()}
 
+    #------------------------------------------------------------------------------------------------------------------------*
+    #                                 TRATAMIENTO TABLA IndicadorCategoria                                                   *
+    #------------------------------------------------------------------------------------------------------------------------*
 
-    # Consultar las categorías para los IdIndicador obtenidos
+    # Consultar las categorías presentes en tabla IndicadorCategoria (relaciones) para los IdIndicador obtenidos
     id_indicadores_str = ', '.join([str(id_indicador) for id_indicador in id_indicadores_result.values()])
     categorias_por_indicador_query = f'''
         SELECT IdIndicador, IdCategoria
@@ -454,8 +529,9 @@ def procesar_lote(df_lote, bq_client, conjunto_datos, tabla_indicador, tabla_ind
     job_config = bigquery.QueryJobConfig(query_parameters=query_params)
     query_job = bq_client.query(categorias_por_indicador_query, job_config=job_config)
     
-    #categorias_por_indicador = {row['IdIndicador']: row['IdCategoria'] for row in query_job.result()}
+
     categorias_por_indicador = {}
+    # Recupero las categorias cargadas en IndicadorCategoria para todos los IdIndicador de tabla Indicador
     for row in query_job.result():
         id_indicador = row['IdIndicador']
         id_categoria = row['IdCategoria']
@@ -465,7 +541,16 @@ def procesar_lote(df_lote, bq_client, conjunto_datos, tabla_indicador, tabla_ind
         else:
             categorias_por_indicador[id_indicador].append(id_categoria)
 
-    categorias_x_indicador = obtener_categorias_indicadores(codigos_indicadores_lote)
+    # Recupero los Nros de Tópicos de cada CodIndicador del Lote Completo
+    # Ejemplo del registro que retorna la función:
+    # [{'CodIndicador': 'FP.CPI.TOTL.ZG', 'NroTopicoBM': [3, 7]},...]
+    categorias_x_indicador  = obtener_categorias_indicadores(codigos_indicadores_lote)
+
+    # Necesito convertir los Nros de Tópicos presentes en categorias_x_indicador a IdCategoria
+    df_indicadores_bigquery = obtener_tabla_categoria(bq_client, conjunto_datos, 'Categoria')
+    categorias_x_indicador  = generar_categorias_x_indicador(df_indicadores_bigquery, categorias_x_indicador)
+
+
 
     for _, row in df_lote.iterrows():
         cod_indicador = row['CodIndicador']
@@ -487,9 +572,6 @@ def procesar_lote(df_lote, bq_client, conjunto_datos, tabla_indicador, tabla_ind
             # Calcular las categorías a agregar y eliminar
             categories_to_add = set(new_categories) - existing_categories
             categories_to_remove = existing_categories - set(new_categories)
-
-            print(f"Categorías para agregar: {categories_to_add}")
-            print(f"Categorías para eliminar: {categories_to_remove}")
 
             # Insertar nuevas relaciones en IndicadorCategoria
             for category in categories_to_add:
@@ -525,11 +607,13 @@ def cargar_indicadores(request):
     global total_eliminadas_relaciones
     cantidad_lotes = 0
 
+    # Configuración de BigQuery
     bq_client = bigquery.Client()
     conjunto_datos = 'Modelo_Esperanza_De_Vida'
     tabla_indicador = 'Indicador'
     tabla_indicador_categoria = 'IndicadorCategoria'
 
+    # Configuración de Cloud Storage
     storage_client = storage.Client()
     bucket_name = 'pf-henry-esperanza-parametros'
     indicadores_blob_name = 'Parametros_Indicadores.csv'
@@ -568,9 +652,10 @@ def cargar_indicadores(request):
     print("*                                            *")
     print("*--------------------------------------------*")
     print("*")
-    print(f"Total de lotes procesados: {cantidad_lotes}")
-    print(f"Total general de indicadores insertados en Indicador: {total_insertados_indicador}")
-    print(f"Total general de indicadores modificados en Indicador: {total_modificados_indicador}")
+    print(f"Total de lotes procesados                                   : {cantidad_lotes}")
+    print(f"Total general de indicadores insertados en Indicador        : {total_insertados_indicador}")
+    print(f"Total general de indicadores modificados en Indicador       : {total_modificados_indicador}")
+    print("*")
     print(f"Total general de Relaciones insertadas en IndicadorCategoria: {total_insertadas_relaciones}")
     print(f"Total general de Relaciones eliminadas en IndicadorCategoria: {total_eliminadas_relaciones}")
     print("*")

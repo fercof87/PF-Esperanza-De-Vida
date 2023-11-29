@@ -43,11 +43,11 @@ default_args = {
 
 # Crea una instancia de DAG
 dag = DAG(
-    'mi_pipeline_etl',
+    'Pipeline_Principal',
     default_args=default_args,
     schedule_interval=None,  # Programa el DAG para que se ejecute semanalmente timedelta(days=7)
     catchup=False,  # Evita la ejecución retroactiva de tareas
-    description='DAG para orquestar el pipeline ETL con Google Cloud Functions',
+    description='DAG para orquestar el pipeline ETL con Google Cloud Functions, proyecto Esperanza de Vida.',
     is_paused_upon_creation=True,  # Pausa el DAG al ser creado
 )
 
@@ -116,13 +116,29 @@ transformar_imputar_BM = BashOperator(
     dag=dag,
 )
 
+generar_data_ML = BashOperator(
+    task_id='generar_data_ML',
+    bash_command='gcloud functions call generar_data_ML',
+    dag=dag,
+)
+
+clusterizar_paises = BashOperator(
+    task_id='clusterizar_paises',
+    bash_command='gcloud functions call clusterizar_paises',
+    dag=dag,
+)
+
+imputar_rentabilidad = BashOperator(
+    task_id='imputar_rentabilidad',
+    bash_command='gcloud functions call imputar_rentabilidad',
+    dag=dag,
+)
 
 respaldar_archivos = BashOperator(
     task_id='respaldar_archivos',
     bash_command='gcloud functions call respaldar_archivos',
     dag=dag,
 )
-
 
 mostrar_estadisticas = BashOperator(
     task_id='mostrar_estadisticas',
@@ -135,4 +151,4 @@ verificar_archivos >> [cargar_continente, cargar_categorias, extraer_datos_BM, c
 cargar_continente >> extraer_paises >> cargar_paises
 cargar_categorias >> cargar_indicadores
 extraer_datos_BM >> transformar_columnas_a_registros_BM
-[transformar_columnas_a_registros_BM, cargar_indicadores, cargar_paises, cargar_indicador_rentabilidad] >> transformar_imputar_BM >> respaldar_archivos >> mostrar_estadisticas
+[transformar_columnas_a_registros_BM, cargar_indicadores, cargar_paises, cargar_indicador_rentabilidad] >> transformar_imputar_BM >> generar_data_ML >> clusterizar_paises >> imputar_rentabilidad >> [respaldar_archivos, mostrar_estadisticas]

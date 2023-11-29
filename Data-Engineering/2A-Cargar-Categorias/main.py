@@ -233,7 +233,8 @@ def buscar_categorias(lista_indicadores):
     # Unir dataframes para visualizar código indicador, el id de la categoría(tópico) y su nombre
     df_indicator_category = df_indicator_category_id.merge(df_category, on="category_id")
 
-    return df_indicator_category[['category']].rename(columns={'category': 'Categoria'})
+    #return df_indicator_category[['category']].rename(columns={'category': 'Categoria'})
+    return df_indicator_category[['category','category_id']].rename(columns={'category': 'Categoria', 'category_id': 'NroTopicoBM'})
 
 
 def cargar_categorias(request):
