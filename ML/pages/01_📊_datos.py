@@ -25,7 +25,7 @@ st.write('obtenemos los datos y los pasamos a un Dataframe')
 #-------------------------------------------------------------------
 
 # Cargar las credenciales desde el archivo JSON
-credentials = service_account.Credentials.from_service_account_file('credenciales.json')
+credentials = service_account.Credentials.from_service_account_file('ML/credenciales.json')
 
 # Crear un cliente de Storage con las credenciales
 client = storage.Client(credentials=credentials)
