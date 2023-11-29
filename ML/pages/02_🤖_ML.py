@@ -2,6 +2,7 @@ import streamlit as st
 import pandas as pd
 from sklearn.cluster import KMeans
 import matplotlib.pyplot as plt
+import seaborn as sns
 
 
 #logo
@@ -55,11 +56,29 @@ if continente_seleccionado != 'Selecciona un Continente':
 opciones_paises = ['Selecciona un País'] + list(df_group_cluster['Pais'].unique())
 pais_seleccionado = st.selectbox("Selecciona un País", opciones_paises)
 
-# Verificar si se ha seleccionado un país
 if pais_seleccionado != 'Selecciona un País':
-    # Verificar la viabilidad del país seleccionado
     if pais_seleccionado in df_cluster_2['Pais'].values:
         st.markdown(f"<span style='font-size:24px'>El país **{pais_seleccionado}** es viable.</span>", unsafe_allow_html=True)
-        st.dataframe(df_data_año[df_data_año['Pais']==pais_seleccionado])
+        with st.expander("Ver Datos del País"):
+            st.dataframe(df_data_año[df_data_año['Pais'] == pais_seleccionado])
+
+        with st.expander(f"Visualización de Datos de {pais_seleccionado}"):
+            df_gra_pais = df_data_año[df_data_año['Pais'] == pais_seleccionado]
+
+        # Primer gráfico: Línea de tiempo
+            fig1, ax1 = plt.subplots(figsize=(10, 6))
+            sns.lineplot(data=df_gra_pais, x='Año', y='GDP per capita (current US$)')
+            ax1.set_title("Linea de tiempo")
+            ax1.set_xlabel("Año")
+            ax1.set_ylabel("Frecuencia")
+            st.pyplot(fig1) 
+
+            # Segundo gráfico: Otro tipo de gráfico (por ejemplo, un histograma)
+            fig2, ax2 = plt.subplots(figsize=(10, 6))
+            sns.lineplot(data=df_gra_pais,x='Año', y='Life expectancy at birth, total (years)')  # Reemplaza 'Otra_Columna' con el nombre real
+            ax2.set_title("Histograma")
+            ax2.set_xlabel("Valores")
+            ax2.set_ylabel("Frecuencia")
+            st.pyplot(fig2) 
     else:
-        st.markdown(f"<span style='font-size:18px'>El país **{pais_seleccionado}** No es viable.</span>", unsafe_allow_html=True)
+        st.markdown(f"<span style='font-size:18px'>El país **{pais_seleccionado}** no es viable.</span>", unsafe_allow_html=True)
