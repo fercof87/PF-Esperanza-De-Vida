@@ -1,17 +1,17 @@
 import streamlit as st
 
-
 # Título de la aplicación
 st.title("Análisis de la Esperanza de Vida al Nacer para Factibilidad de lanzamiento de multivitamínico a nivel Global.")
 
-st.sidebar.image('ML/img/Fixing_Data.jpg', caption='Proyecto Final')
+st.sidebar.write("# Análisis de la Esperanza de Vida al Nacer para Factibilidad de lanzamiento de multivitamínico a nivel Global")
+st.sidebar.image('../MLOPs/img/Fixing_Data.jpg', caption='Proyecto Final')
 
 
 #--------------------------------------------------------------------------------------------------------
 
 # Acerca De Nosotros
 st.header("Acerca De Nosotros")
-st.image("ML/img/Fixing_Data.jpg")
+st.image("../MLOps/img/Fixing_Data.jpg")
 st.markdown(
     """
     **Fixing Data** es una innovadora startup en el apasionante mundo de los datos. Como empresa joven, estamos comprometidos en la búsqueda de soluciones creativas y efectivas para desafíos data-driven. Nuestra misión es aprovechar el poder de la información para ayudar a las empresas a tomar decisiones informadas, optimizar sus procesos y desbloquear su máximo potencial.
@@ -25,11 +25,11 @@ st.markdown(
 # Enlaces
 st.header("Enlaces")
 st.markdown("### GitHub")
-st.image("ML/img/github.png")
+st.image("../MLOps/img/github.png")
 st.write("[GitHub](https://github.com/fercof87/PF-Esperanza-De-Vida)")
 
 st.markdown("### Gantt")
-st.image("ML/img/gantt-icono.png")
+st.image("../MLOps/img/gantt-icono.png")
 st.write("[Gantt](https://bit.ly/3tRDgd5)")
 
 # Descripción del Proyecto
