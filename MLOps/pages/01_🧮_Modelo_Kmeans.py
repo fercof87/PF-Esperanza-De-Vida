@@ -12,7 +12,7 @@ import plotly.express as px
 
 st.sidebar.write("# Ruta hacia la Creación del Modelo")
 #logo
-st.sidebar.image('../MLOps/img/Fixing_Data.jpg', caption='Proyecto Final')
+st.sidebar.image('MLOps/img/Fixing_Data.jpg', caption='Proyecto Final')
 
 #---------------------------------------------------------------
 #titulo
@@ -20,13 +20,13 @@ st.title('Ruta hacia la Creación del Modelo')
 
 
 st.markdown("### Se hace la conexion a google storage para Obtener los datos")
-st.image("../MLOps/img/googlestorage.png")
+st.image("MLOps/img/googlestorage.png")
 
 st.subheader('Obtenemos los datos y los pasamos a un Dataframe')
 #-------------------------------------------------------------------
 
 # Cargar las credenciales desde el archivo JSON
-credentials = service_account.Credentials.from_service_account_file('../MLOps/credenciales.json')
+credentials = service_account.Credentials.from_service_account_file('MLOps/credenciales.json')
 
 # Crear un cliente de Storage con las credenciales
 client = storage.Client(credentials=credentials)
