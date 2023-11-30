@@ -4,7 +4,7 @@ import streamlit as st
 st.title("Análisis de la Esperanza de Vida al Nacer para Factibilidad de lanzamiento de multivitamínico a nivel Global.")
 
 st.sidebar.write("# Análisis de la Esperanza de Vida al Nacer para Factibilidad de lanzamiento de multivitamínico a nivel Global")
-st.sidebar.image('MLOPs/img/Fixing_Data.jpg', caption='Proyecto Final')
+st.sidebar.image('MLOps/img/Fixing_Data.jpg', caption='Proyecto Final')
 
 
 #--------------------------------------------------------------------------------------------------------
