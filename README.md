@@ -45,6 +45,12 @@
         <br>Gantt
       </a>
     </td>
+    <td align="center">
+      <a href="https://share.streamlit.io/app/pf-esperanza-de-vida-fixing-data/ML" style="margin: 0 5px; display: inline-block; padding: 5px; border-radius: 5px;">
+        <img src="src/streamlit-logo.png" alt="Streamlit" width="75" height="70">
+        <br>ML Clusters
+      </a>
+    </td>
   </tr>
 </table>
 <hr>
@@ -102,16 +108,42 @@ En segundo lugar, hemos completado exitosamente el modelo de machine learning qu
 Estos logros resaltan nuestro compromiso con la excelencia y nuestra determinación de brindar a nuestro cliente herramientas valiosas para la toma de decisiones informadas en su industria.
 </p>
 
+<br><br>
+
+## Definición de KPIs
+
+<p style="text-align: justify;">
+Hemos meticulosamente establecido un conjunto de Indicadores Clave de Rendimiento (KPIs), refinándolos a medida que avanzamos en los sprints. El resultado final es una selección cuidadosa de 5 KPIs que proporcionan una clara diferenciación entre los países, permitiendo a nuestro cliente evaluar con precisión el lanzamiento de su nuevo producto en las regiones más estratégicas y rentables. Estos KPIs sirven como herramientas esenciales para identificar las oportunidades más prometedoras y optimizar la estrategia de mercado.
+
+**Los KPIs que hemos definido son:**
+
+- `Aumento de la Esperanza de Vida en un 0,1% quinquenal`: <br>Objetivo: Evaluar de manera quinquenal el incremento en la esperanza de vida en las regiones seleccionadas. 
+
+- `Aumento de la Población Mayor a 65 años en un 2% anual`: <br>Objetivo: Evaluar anualmente el crecimiento de la población de 65 años o más en las regiones estudiadas.
+
+- `Aumento de la Población Urbana en un 2% anual`: <br>Objetivo: Evaluar anualmente el aumento de la población en áreas urbanas en las regiones seleccionadas.
+
+- `Aumento del Producto Interno Bruto (PBI) en un 0,25% anual`: <br>Objetivo: Evaluar anualmente el crecimiento del Producto Interno Bruto (PBI) en las regiones seleccionadas.
+
+- `Mantener la tasa de inflación en 0% durante períodos quinquenales`: <br>Objetivo: Evaluar de manera quinquenal la eficacia en la reducción de la tasa de inflación en las regiones bajo estudio.
+
+</p>
+
+
+<br>
 
 ## Stack Tecnológico
 
 <p style="text-align: justify;">
+
+
+A continuación, detallamos el Stack Tecnológico  que hemos seleccionado para nuestro proyecto, la cual hace uso de varios servicios ofrecidos por Google Cloud Platform (GCP):
   
 - **Google Cloud Storage**: Utilizado para la persistencia de los archivos no estructurados, sera utilizado como DL(Data Lake).
 
 - **Google Big Query**:  Utilizado para la persistencia de los archivos estructurados, sera utilizado como DW(Data WareHouse).
 
-- **Google Data Flow**: Utilizado para la construcción y automatización del Pipeline de datos.
+- **Airflow/Composer**: Utilizado para la construcción y automatización del Pipeline de datos.
 
 - **Google Looker**: Utilizado para la construcción del Dashboard Interactivo.
 
@@ -119,19 +151,6 @@ Estos logros resaltan nuestro compromiso con la excelencia y nuestra determinaci
 
 </p>
 
-## Librerías Utilizadas
-
-<p style="text-align: justify;">
-  
-- **warnings**: Utilizada en la sección de construcción de gráficos para ignorar FutureWarnings.
-
-- **Pandas/Numpy**:  Se utilizó esta librería de Python para el volcado y manipulación de los archivos.
-
-- **matplotlib/Seaborn**: Utilizadas para graficar en mi análisis exploratorio (EDA).
-
-- **openpyxl**: Para la lectura y manipulacion de archivos xlsx.
-
-</p>
 
 <br></br>
 
@@ -139,22 +158,43 @@ Estos logros resaltan nuestro compromiso con la excelencia y nuestra determinaci
 
 <p style="text-align: justify;">
   
-- **Datos**: Aquí están todos los archivos generados en el proceso de ETL/EDA como asi también los inputs de provenientes del banco mundial de datos.
+El presente repositorio de Git Hub se encuentra organizado de la siguiente manera:
 
-- **Funciones**: Conjunto de todas las funciones desarrolladas, las cuales son utilizadas a lo largo del proyecto.
+<br>
 
-- **Logs**: Algunas funciones generan logs en caso de error. Estos logs son guardados en este folder.
+- **Data-Analitycs**: Aquí están las querys y vistas utilizadas en BigQuery.
 
-- **EDA.ipynb**: Análisis exploratorio, transformación de datos, imputaciones y generación de archivos a utilizar como origen de datos en POWER BI.
+- **Data-Api-BM**: Aquí están todas las funcionalidades utilizadas para consumir la API del Banco Mundial de Datos.
 
-- **Docs. Management y Funcional**: Directorio que contiene toda la documentación de gestión de proyecto. Ademas, se podrán encontrar los archivos de documentación funcional.
+- **Data-Engineering**: Aquí se encuentran todas las cloud Function que hemos desarrollado junto con el DAG que las orquesta.
+
+- **Documentacion**: Documentación general del proyecto, tanto para la parte de Project Management como funcional. También están los informes generados en cada Sprint.
+
+- **EDA**: Análisis exploratorio, transformación de datos e imputaciones.
+
+- **MLOps**: Directorio que contiene el modelo de Cluster utilizado para recomendar Países Rentables a nuestro Cliente. Tiene la implementación en StreamLit.
+
+- **src**: Directorio de imágenes del proyecto.
+
+- **Testing**: Directorio con toda la documentación relacionada a las pruebas unitarias en integrales.
   
 </p>
 
 <br>
 <br>
-<br>
 
+## DISCLAIMER
+
+<p style="text-align: justify;">
+  
+Este trabajo de investigación es con fines educacionales, el resultado arrojado por los productos producidos ofrece un análisis exploratorio de la data recolectada en bancos de datos mundiales y no da referencia para que sea tomado como fundamento para hacer inversiones de capital de empresas en expansión.
+  
+</p>
+
+
+<br>
+<br>
+<br>
 
 <!-- Enlaces -->
 <h3>Enlaces</h3>
@@ -171,6 +211,12 @@ Estos logros resaltan nuestro compromiso con la excelencia y nuestra determinaci
       <a href="https://bit.ly/3tRDgd5" style="margin: 0 5px; display: inline-block; padding: 5px; border-radius: 5px;">
         <img src="src/gantt-icono.png" alt="GitHub" width="75" height="75">
         <br>Gantt
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://share.streamlit.io/app/pf-esperanza-de-vida-fixing-data/ML" style="margin: 0 5px; display: inline-block; padding: 5px; border-radius: 5px;">
+        <img src="src/streamlit-logo.png" alt="Streamlit" width="75" height="70">
+        <br>ML Clusters
       </a>
     </td>
   </tr>
