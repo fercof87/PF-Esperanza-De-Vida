@@ -107,7 +107,7 @@ Hemos meticulosamente establecido un conjunto de Indicadores Clave de Rendimient
 
 - `Aumento de la Esperanza de Vida en un 0,1% quinquenal`: <br>Objetivo: Evaluar de manera quinquenal el incremento en la esperanza de vida en las regiones seleccionadas. 
 
-- `Aumento de la Población Mayor a 65 años en un 2% anual`: <br>Objetivo: Evaluar anualmente el crecimiento de la población de 65 años o más en las regiones estudiadas.
+- `Aumento de la Población Mayor a 65 años en un 1% anual`: <br>Objetivo: Evaluar anualmente el crecimiento de la población de 65 años o más en las regiones estudiadas.
 
 - `Aumento de la Población Urbana en un 2% anual`: <br>Objetivo: Evaluar anualmente el aumento de la población en áreas urbanas en las regiones seleccionadas.
 
