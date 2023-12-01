@@ -39,18 +39,6 @@
         <br>GitHub
       </a>
     </td>
-    <td align="center">
-      <a href="https://bit.ly/3tRDgd5" style="margin: 0 5px; display: inline-block; padding: 5px; border-radius: 5px;">
-        <img src="src/gantt-icono.png" alt="GitHub" width="75" height="75">
-        <br>Gantt
-      </a>
-    </td>
-    <td align="center">
-      <a href="https://share.streamlit.io/app/pf-esperanza-de-vida-fixing-data/ML" style="margin: 0 5px; display: inline-block; padding: 5px; border-radius: 5px;">
-        <img src="src/streamlit-logo.png" alt="Streamlit" width="75" height="70">
-        <br>ML Clusters
-      </a>
-    </td>
   </tr>
 </table>
 <hr>
@@ -205,18 +193,6 @@ Este trabajo de investigación es con fines educacionales, el resultado arrojado
       <a href="https://github.com/fercof87/PF-Esperanza-De-Vida" style="margin: 0 5px; display: inline-block; padding: 5px; border-radius: 5px;">
         <img src="src/github.png" alt="GitHub" width="75" height="75">
         <br>GitHub
-      </a>
-    </td>
-    <td align="center">
-      <a href="https://bit.ly/3tRDgd5" style="margin: 0 5px; display: inline-block; padding: 5px; border-radius: 5px;">
-        <img src="src/gantt-icono.png" alt="GitHub" width="75" height="75">
-        <br>Gantt
-      </a>
-    </td>
-    <td align="center">
-      <a href="https://share.streamlit.io/app/pf-esperanza-de-vida-fixing-data/ML" style="margin: 0 5px; display: inline-block; padding: 5px; border-radius: 5px;">
-        <img src="src/streamlit-logo.png" alt="Streamlit" width="75" height="70">
-        <br>ML Clusters
       </a>
     </td>
   </tr>
