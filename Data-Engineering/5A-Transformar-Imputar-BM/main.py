@@ -270,7 +270,7 @@ def obtener_maximo_nro_ejecucion(bq_client):
         
         if max_nro == None:
             return 1
-        return max_nro + 1
+        return max_nro
 
     except Exception as e:
         raise Exception(f"Error al obtener el máximo NroEjecucion: {e}")

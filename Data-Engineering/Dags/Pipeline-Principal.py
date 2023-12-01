@@ -61,6 +61,12 @@ verificar_archivos = BashOperator(
     dag=dag,
 )
 
+eliminar_duplicados_parametros = BashOperator(
+    task_id='eliminar_duplicados_parametros',
+    bash_command='gcloud functions call eliminar_duplicados_parametros',
+    dag=dag,
+)
+
 cargar_continente = BashOperator(
     task_id='cargar_continente',
     bash_command='gcloud functions call cargar_continente',
@@ -147,7 +153,8 @@ mostrar_estadisticas = BashOperator(
 )
 
 # Secuencia de tareas
-verificar_archivos >> [cargar_continente, cargar_categorias, extraer_datos_BM, cargar_indicador_rentabilidad]
+verificar_archivos >> eliminar_duplicados_parametros
+eliminar_duplicados_parametros >> [cargar_continente, cargar_categorias, extraer_datos_BM, cargar_indicador_rentabilidad]
 cargar_continente >> extraer_paises >> cargar_paises
 cargar_categorias >> cargar_indicadores
 extraer_datos_BM >> transformar_columnas_a_registros_BM
