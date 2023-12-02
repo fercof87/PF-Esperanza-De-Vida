@@ -26,21 +26,25 @@ st.subheader('Obtenemos los datos y los pasamos a un Dataframe')
 #-------------------------------------------------------------------
 
 # Cargar las credenciales desde el archivo JSON
-credentials = service_account.Credentials.from_service_account_file('MLOps/credenciales.json')
+#credentials = service_account.Credentials.from_service_account_file('MLOps/credenciales.json')
 
 # Crear un cliente de Storage con las credenciales
-client = storage.Client(credentials=credentials)
+#client = storage.Client(credentials=credentials)
 
 # Obtén el bucket y el blob
-bucket_name = 'pf-henry-esperanza-mlops'
-file_name = 'Data-ML.csv'
-bucket = client.get_bucket(bucket_name)
-blob = bucket.blob(file_name)
+#bucket_name = 'pf-henry-esperanza-mlops'
+#file_name = 'Data-ML.csv'
+#bucket = client.get_bucket(bucket_name)
+#blob = bucket.blob(file_name)
 
 # Descargar el archivo a un DataFrame de Pandas
-content = blob.download_as_bytes()
-df = pd.read_csv(io.BytesIO(content),sep=';')
-st.dataframe(df.head())
+#content = blob.download_as_bytes()
+#df = pd.read_csv(io.BytesIO(content),sep=';')
+#st.dataframe(df.head())
+
+df = pd.read_csv('MLOps/datasets_ML/Data-ML_gcp.csv',sep=';')
+
+
 
 #----------------------------------------------------------------------------
 #Transformamos el nombre de la columna anio a año
