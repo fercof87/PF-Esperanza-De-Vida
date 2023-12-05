@@ -1,0 +1,38 @@
+# Auditoria
+bq show --format=prettyjson possible-willow-403216:Modelo_Esperanza_De_Vida.Auditoria > Auditoria.sql
+
+# Categoria
+bq show --format=prettyjson possible-willow-403216:Modelo_Esperanza_De_Vida.Categoria > Categoria.sql
+
+# Comparacion_Periodo_Anterior_Indicadores
+bq show --format=prettyjson possible-willow-403216:Modelo_Esperanza_De_Vida.Comparacion_Periodo_Anterior_Indicadores > Comparacion_Periodo_Anterior_Indicadores.sql
+
+# Comparacion_Periodo_Anterior_Indicadores_x5
+bq show --format=prettyjson possible-willow-403216:Modelo_Esperanza_De_Vida.Comparacion_Periodo_Anterior_Indicadores_x5 > Comparacion_Periodo_Anterior_Indicadores_x5.sql
+
+# Continente
+bq show --format=prettyjson possible-willow-403216:Modelo_Esperanza_De_Vida.Continente > Continente.sql
+
+# DatosIndicador
+bq show --format=prettyjson possible-willow-403216:Modelo_Esperanza_De_Vida.DatosIndicador > DatosIndicador.sql
+
+# Indicador
+bq show --format=prettyjson possible-willow-403216:Modelo_Esperanza_De_Vida.Indicador > Indicador.sql
+
+# IndicadorCategoria
+bq show --format=prettyjson possible-willow-403216:Modelo_Esperanza_De_Vida.IndicadorCategoria > IndicadorCategoria.sql
+
+# IndicadorRentabilidad
+bq show --format=prettyjson possible-willow-403216:Modelo_Esperanza_De_Vida.IndicadorRentabilidad > IndicadorRentabilidad.sql
+
+# Join-Indicador-Categoria-Datos
+bq show --format=prettyjson possible-willow-403216:Modelo_Esperanza_De_Vida.Join-Indicador-Categoria-Datos > Join-Indicador-Categoria-Datos.sql
+
+# Join-Pais-Continente-Rentabilidad
+bq show --format=prettyjson possible-willow-403216:Modelo_Esperanza_De_Vida.Join-Pais-Continente-Rentabilidad > Join-Pais-Continente-Rentabilidad.sql
+
+# Pais
+bq show --format=prettyjson possible-willow-403216:Modelo_Esperanza_De_Vida.Pais > Pais.sql
+
+# ParametrosML
+bq show --format=prettyjson possible-willow-403216:Modelo_Esperanza_De_Vida.ParametrosML > ParametrosML.sql
